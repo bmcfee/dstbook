@@ -1,8 +1,3 @@
-# This file contains the order and numbering for all sections in the book.
-#
-# It is a sample TOC file to help you get started. Fill it out with entries
-# for your own content.
-#
 # Each entry has the following schema:
 #
 # - title: mytitle   # Title of chapter or section
@@ -18,39 +13,23 @@
 # - search: true  # Will provide a link to a search page
 # - divider: true  # Will insert a divider in the sidebar
 # - header: My Header  # Will insert a header with no link in the sidebar
+
 #
-# See the links below for an example.
+# ==============================
+# AUTOMATICALLY GENERATED TOC FILE.
+# You should review the contents of this file, re-order items as you wish,
+# and nest chapters in sections if you wish. The ======= symbols represent 
+# folder breaks.
+# 
+# See the demo `toc.yml` for the right structure to follow. You can 
+# generate a demo book by running `jupyter-book create mybook --demo`
+# ==============================
 
-# Top-level page
-- title: Home
-  url: /intro
-  not_numbered: true
 
-# External link
-- title: GitHub repository
-  url: https://github.com/jupyter/jupyter-book
-  external: true
-  not_numbered: true
 
-# Adds a searchbar link
-- title: Search
-  search: true
+- url: intro
 
-# Divider for meta-pages and content page
-- divider: true
+- header: Signals and Audio
+- url: ch01/index
+- url: ch01/Waves
 
-# Add a header and sample content section
-- header: Demo textbook
-
-# A chapter w/ a collection of sections beneath it
-- title: Features and customization
-  url: /features/features
-  not_numbered: true
-  expand_sections: true
-  sections:
-  - title: Markdown files
-    url: /features/markdown
-    not_numbered: true
-  - title: Jupyter notebooks
-    url: /features/notebooks
-    not_numbered: true

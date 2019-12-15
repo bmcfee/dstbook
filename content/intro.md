@@ -1,23 +1,8 @@
-# Books with Jupyter and Jekyll
+# Fundamentals of Digital Signals Theory
 
-<img src="https://circleci.com/gh/jupyter/jupyter-book.svg?style=svg" class="left">
+Blah blah blah
 
-Jupyter Book lets you build an online book using a collection of Jupyter Notebooks
-and Markdown files. Its output is similar to the excellent [Bookdown](https://bookdown.org/yihui/bookdown/) tool,
-and adds extra functionality for people running a Jupyter stack.
-
-For an example of a book built with Jupyter Book, see the [textbook for Data 100](https://www.textbook.ds100.org/) at UC Berkeley.
-
-Here are a few features of Jupyter Book
-
-* All course content is written in markdown and Jupyter Notebooks, stored in `notebooks/`
-* The Jupyter Book repo comes packaged with helper scripts to convert these into Jekyll pages (in `scripts/`) that can be hosted for free on GitHub
-* Pages can have [Binder](https://mybinder.org) or JupyterHub links automatically added for interactivity.
-* The website itself is based on Jekyll, and is highly extensible and can be freely-hosted on GitHub.
-* There are lots of nifty HTML features under-the-hood, such as Turbolinks fast-navigation and
-  click-to-copy in code cells.
-
-## Getting started
+## What does this book cover
 
 To get started, you may be interested in the following links.
 Here are a few links of interest:
@@ -32,22 +17,13 @@ Here are a few links of interest:
 
 * **A demo of the Jupyter Book** can be browsed via the sidebar to the left.
 
-## Installation
+## Who is this book for?
 
-Here's a brief rundown of how to create your own Jupyter Book using this site. For a more
-complete guide, see [the Jupyter Book guide](guide/01_overview).
-
-* Fork the Jupyter Book template repo
-* Replace the demo notebooks in `content/` with your own notebooks and markdown files.
-* Create a Table of Contents yaml file by editing `_data/toc.yaml`.
-* Generate the Jekyll markdown for your notebooks by running `scripts/generate_book.py`
-* Push your changes to GitHub (or wherever you host your site)!
+## Why another book?
 
 ## Acknowledgements
 
-Jupyter Book was originally created by [Sam Lau][sam] and [Chris Holdgraf][chris]
-with support of the **UC Berkeley Data Science Education Program and the Berkeley
-Institute for Data Science**.
+This interactive book was originally created by [Brian McFee][brm] to accompany the Fundamentals of Digital Signals Theory course at New York
+University.
 
-[sam]: http://www.samlau.me/
-[chris]: https://predictablynoisy.com
+[brm]: https://bmcfee.github.io/
