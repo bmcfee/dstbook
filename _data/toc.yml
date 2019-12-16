@@ -27,9 +27,10 @@
 
 
 
-- url: intro
+#- url: intro
 
-- header: Signals and Audio
-- url: ch01/index
+- header: Signals and sound
+  expand_sections: true
+  #- url: ch01/index
 - url: ch01/Waves
 
