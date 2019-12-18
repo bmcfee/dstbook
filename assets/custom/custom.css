@@ -4,6 +4,25 @@
     float: left !important;
 }
 
-h1, h2, h3, h4, h5 {font-family: "Helvetica", sans-serif; }
+/*
+colors = ['#0271AE', '#EC2830', '#FFC438',  # blue, red, light orange
+            '#6E3B87', '#008D5D', '#FA902D',  # purple, green, orange
+            '#0095B7', '#CB0C7B', '#F7E43C',  # cyan, magenta, yellow
+            '#88B93B', '#444F95', '#F16232']  # pea green, dark blue, dark orange
+*/
+.blue {color: #0271AE;}
+.red {color: #EC2830;}
+.orange {color: #FFC438;}
+.purple {color: #633B87;}
+.green {color: #008D5D;}
+.dkorange {color: #FA902D;}
+.cyan {color: #0095B7;}
+.magenta {color: #CB0C8B;}
+.yellow {color: #F7E43C;}
+.peagreen {color: #88B93B;}
+.darkblue {color: #444F95;}
+.darkorange {color: #F16232;}
 
-* { font-family: "Palatino", serif; }
+div { font-family: "Palatino", serif; }
+
+pre { font-family: monospace;}

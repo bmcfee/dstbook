@@ -1,0 +1,40 @@
+patch.linewidth: 0.5
+xtick.major.pad: 12
+xtick.labelsize: 18
+ytick.major.pad: 12
+ytick.labelsize: 18
+
+text.usetex: True
+font.family: serif
+font.serif: Palatino
+font.sans-serif: Helvetica Neue
+
+lines.linewidth: 4
+lines.markersize: 16
+lines.markeredgewidth: 0
+grid.color: 0.0
+grid.linestyle: -
+grid.alpha: 0.2
+grid.linewidth: 1.5
+animation.html: html5
+
+legend.frameon: True
+legend.framealpha: 0.9
+legend.fontsize: 18
+
+figure.figsize: 8, 8
+figure.dpi: 72
+figure.autolayout: True
+
+# colors = ['#0271AE', '#EC2830', '#FFC438',  # blue, red, light orange
+#           '#6E3B87', '#008D5D', '#FA902D',  # purple, green, orange
+#           '#0095B7', '#CB0C7B', '#F7E43C',  # cyan, magenta, yellow
+#           '#88B93B', '#444F95', '#F16232']  # pea green, dark blue, dark orange
+
+axes.grid: True
+axes.labelsize: 16
+axes.titlesize: 18
+axes.prop_cycle: cycler('color', ['0271AE', 'EC2830', 'FFC438', '6E3B87', '008D5D', 'FA902D', '0095B7', 'CB0C7B', 'F7E43C', '88B93B', '444F95', 'F16232'])
+
+
+
