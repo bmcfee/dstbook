@@ -1,0 +1,13 @@
+# Discrete sampling
+
+In the previous chapter, signals were assumed to exist in continuous time.
+A signal was represented as $x(t)$, where $t$ could be any continuous value representing time: $0, 3, -1/12, \sqrt{2}, ...$ are all valid values for $t$.
+
+Digital computers, the kind we write programs for, cannot work directly with continuous signals.
+When a signal enters a digital computer, it must be *discretized* before the computer can be processed.
+There are two ingredients to discretization: sampling, and quantization.
+
+This section introduces discrete sampling: the process of summarizing a continuous signal $x(t)$ by a discrete sequence of sample values.
+There is a vast and deep literature around the topic of sampling, and this chapter generally covers the basics.
+
+At the end of the chapter, we'll come back to quantization, but sampling is by far the more important part of the discretization process.

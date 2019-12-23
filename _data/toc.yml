@@ -28,9 +28,32 @@
 
 
 - url: intro
+  not_numbered: true
 
-- header: Signals
-- url: ch01/Preliminaries
-- url: ch01/Waves
-- url: ch01/Units
+- url: ch01/Intro
+  expand_sections: true
+  sections:
+  - url: ch01/Preliminaries
+  - url: ch01/Waves
+  - url: ch01/Units
+  - url: ch01/Acoustics
 
+- url: ch02/intro
+  expand_sections: true
+  sections:
+  - url: ch02/Sampling
+  - url: ch02/Aliasing
+  - url: ch02/Nyquist
+  - url: ch02/Practicalities
+  - url: ch02/Quantization
+
+- divider: True
+
+- header: Appendix
+  title: Appendix
+  expand_sections: true
+  sections:
+  - url: appendix/Fundamentals
+  - url: appendix/Algebra
+  - url: appendix/Trigonometry
+  - url: appendix/Complex

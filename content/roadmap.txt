@@ -1,0 +1,179 @@
+preface
+
+    - what is this book?
+    - who is it for?
+    - why do we need another book?
+    - outline
+
+
+signals and sound
+    x preliminaries
+        - what is a signal?
+        - basic notation (continuous time)
+        - conventions, starting at 0, silence before recording, etc.
+
+    x waves: amplitude, frequency, and phase
+        - fundamental period / frequency
+        - why trig functions and not squares or triangles?
+        - ambiguity
+
+    x dimensional analysis
+
+    - basic acoustics
+        - propagation and delay
+        - harmonics
+        - reflection
+        - decibel scaling
+
+
+digital sampling
+    x discrete time
+        - uniform sampling
+        - sampling rate / sampling period
+        - generating tones
+    x aliasing
+    - band-limiting and the Nyquist-Shannon theorem
+        - negative frequency
+    - practical implications for audio
+    - quantization
+
+
+convolution
+    - convolution = delay + gain + mixing
+    - impulse response
+    - examples
+    - different convolution modes
+    - properties of convolution
+
+
+linear and shift-invariant systems
+
+    - systems
+        - give lots of examples, both LSI and not
+    - linearity
+        - emphasize that this is useful beyond filtering, and is critical to DFT
+    - time-shift invariance
+    - how to determine LSI?
+    - properties of LSI systems
+        - convolution, algebraic properties
+    
+
+the discrete fourier transform
+
+    - why?
+    - (detour to complex appendix)
+    - attempt 1: correlating with cosines
+        - define comparison as sum-of-product
+        - rule: any frequency must complete a whole number of cycles ==> analysis frequency
+    - attempt 2: phase problem, use a different shift?  multiple shifts?
+    - attempt 3: the DFT
+    - examples:
+        - common DFT pairs
+        - impulse / sinusoid [delay as special case]
+        - box and sinc
+        - triangle and sinc^2
+        - comb and comb
+        - time-reversal and conjugation
+        - time-scaling
+        - square, triangle, sawtooth
+
+    
+properties of the DFT
+
+    - linearity
+    - the DFT shifting theorem
+    - conjugate symmetry
+    - spectral leakage and windowing
+
+
+the inverse DFT
+    - lemma: comparing two waves of different frequencies = 0 or 1
+    - the inverse DFT
+    - synthesis-based interpretation of DFT
+    - notational cleanup, normalization
+    
+
+advanced DFT: spectrograms and FFT
+
+    - fast fourier transform
+    - short-time fourier transform
+    - time/frequency trade-off
+    - padding and over-sampling
+    - choosing a window function
+
+
+convolution theorem
+    - the convolution theorem
+        - corollary: the correlation theorem
+    - DFT analysis
+    - low-pass, high-pass, band-pass filtering
+    - DFT processing, circular convolution
+    - phase and group delay
+
+
+
+feedback filters
+
+    - linear feedback systems
+        - feed-forward and feed-back coefficients
+    - efficiency comparison
+    - infinite impulse response
+    - causal filters, non-linear phase response
+    - 0-delay filtering
+    - filter initialization
+    - examples
+
+
+the z-transform
+
+    - why we can't use the dft
+    - generalize DFT -> ZT
+    - delay theorem for ZT
+    - transfer functions and "convolution theorem" for ZT
+    - frequency response and group delay
+    - poles, zeros, and stability
+    - cascaded filters
+    - common pitfalls
+        - algebraic errors
+        - off-by-one errors
+        - forgetting complex roots
+        - confusing poles for zeros
+
+
+conclusion and further readings
+
+    - topical/applications texts:
+        - FMP
+        - morgan, gold, ellis
+        - CASSE
+    - more in-depth DSP:
+        - oppenheim and schaffer
+        - stephan mallat / wavelets?
+
+
+appendix (background material)
+
+    mathematical fundamentals
+        - sets, number types, and common notation (isin)
+        - variables
+        - sequences
+        - summations
+        - exponentials
+
+    algebra
+        - rules of algebra
+        - fundamental theorem of algebra
+        - polynomial math
+        - common pitfalls
+
+    trigonometry
+        - sines and cosines
+        - basic relationships, even/odd, conversion
+        - why circles?
+
+    complex numbers
+        - why complex numbers? multiplication and rotation
+        - basic facts about complex numbers
+        - operations: addition, multiplication, conjugation, modulus
+        - euler's formula / pythagorean theorem
+        - complex numbers as waves
