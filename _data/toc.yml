@@ -44,13 +44,14 @@
   - url: ch02/Sampling
   - url: ch02/Aliasing
   - url: ch02/Nyquist
-  - url: ch02/Practicalities
   - url: ch02/Quantization
 
 - divider: True
 
 - header: Appendix
-  title: Appendix
+
+- url: appendix/Intro
+  not_numbered: true
   expand_sections: true
   sections:
   - url: appendix/Fundamentals

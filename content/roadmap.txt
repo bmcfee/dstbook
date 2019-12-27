@@ -34,7 +34,6 @@ digital sampling
     x aliasing
     - band-limiting and the Nyquist-Shannon theorem
         - negative frequency
-    - practical implications for audio
     - quantization
 
 
