@@ -32,9 +32,9 @@ digital sampling
         - sampling rate / sampling period
         - generating tones
     x aliasing
-    - band-limiting and the Nyquist-Shannon theorem
+    x band-limiting and the Nyquist-Shannon theorem
         - negative frequency
-    - quantization
+    x quantization
 
 
 convolution
@@ -153,11 +153,11 @@ conclusion and further readings
 appendix (background material)
 
     mathematical fundamentals
-        - sets, number types, and common notation (isin)
-        - variables
-        - sequences
-        - summations
-        - exponentials
+        x sets, number types, and common notation (isin)
+        x variables
+        x sequences
+        x summations
+        x exponentials
 
     algebra
         - rules of algebra
@@ -174,5 +174,8 @@ appendix (background material)
         - why complex numbers? multiplication and rotation
         - basic facts about complex numbers
         - operations: addition, multiplication, conjugation, modulus
+
+    complex exponentials
         - euler's formula / pythagorean theorem
+        - animation with increasing series approximation
         - complex numbers as waves

@@ -17,7 +17,7 @@ Sample Rate    : 22050
 Precision      : 16-bit
 ```
 The `channels` field tells you how many signals are contained in the file: in this case, only 1 because it's monophonic.
-The other two fields, `sample rate` and precision` have to do with sampling and quantization.
+The other two fields, `sample rate` and `precision` have to do with sampling and quantization.
 
 This section introduces discrete sampling: the process of summarizing a continuous signal $x(t)$ by a discrete sequence of sample values.
 There is a vast and deep literature around the topic of sampling, and this chapter generally covers the basics.

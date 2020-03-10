@@ -27,34 +27,33 @@
 
 
 
-- url: intro
+- url: /intro
   not_numbered: true
 
-- url: ch01/Intro
-  expand_sections: true
+- url: /ch01/Intro
+  expand_sections: False
   sections:
-  - url: ch01/Preliminaries
-  - url: ch01/Waves
-  - url: ch01/Units
-  - url: ch01/Acoustics
+  - url: /ch01/Preliminaries
+  - url: /ch01/Waves
+  - url: /ch01/Units
+  - url: /ch01/Acoustics
 
-- url: ch02/intro
-  expand_sections: true
+- url: /ch02/intro
+  expand_sections: False
   sections:
-  - url: ch02/Sampling
-  - url: ch02/Aliasing
-  - url: ch02/Nyquist
-  - url: ch02/Quantization
+  - url: /ch02/Sampling
+  - url: /ch02/Aliasing
+  - url: /ch02/Nyquist
+  - url: /ch02/Quantization
 
 - divider: True
 
-- header: Appendix
 
-- url: appendix/Intro
+- url: /appendix/Intro
   not_numbered: true
-  expand_sections: true
+  expand_sections: False
   sections:
-  - url: appendix/Fundamentals
-  - url: appendix/Algebra
-  - url: appendix/Trigonometry
-  - url: appendix/Complex
+  - url: /appendix/Fundamentals
+  - url: /appendix/Algebra
+  - url: /appendix/Trigonometry
+  - url: /appendix/Complex
