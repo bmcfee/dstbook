@@ -23,6 +23,13 @@ colors = ['#0271AE', '#EC2830', '#FFC438',  # blue, red, light orange
 .darkblue {color: #444F95;}
 .darkorange {color: #F16232;}
 
-div { font-family: "Palatino", serif; }
+div {   
+    font-family: "Palatino", serif; 
+}
+
+div.jb_cell {
+    text-align: justify;
+    text-justify: inter-word;
+}
 
 pre { font-family: monospace;}

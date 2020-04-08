@@ -46,6 +46,12 @@
   - url: /ch02/Nyquist
   - url: /ch02/Quantization
 
+- url: /ch03/intro
+  expand_sections: False
+  sections:
+  - url: /ch03/Building
+  - url: /ch03/Convolution
+  
 - divider: True
 
 

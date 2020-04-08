@@ -6,7 +6,7 @@ preface
     - outline
 
 
-signals and sound
+1 signals and sound
     x preliminaries
         - what is a signal?
         - basic notation (continuous time)
@@ -26,7 +26,7 @@ signals and sound
         - decibel scaling
 
 
-digital sampling
+2 digital sampling
     x discrete time
         - uniform sampling
         - sampling rate / sampling period
@@ -37,15 +37,25 @@ digital sampling
     x quantization
 
 
-convolution
-    - convolution = delay + gain + mixing
-    - impulse response
-    - examples
-    - different convolution modes
+3 convolution
+    x convolution = delay + gain + mixing
+        - examples
+    x full definition of convolution
+        - alternate formulation by sample vs by delay
+        - special cases:
+            - delay: h = [0, 0, 0, ..., 1]
+            - gain: h = [G]
+    - impulse response, FIR
     - properties of convolution
+        - commutative
+        - associative
+        - distributive (over addition)
+    - different convolution modes
+        - valid
+        - same
+        - full
 
-
-linear and shift-invariant systems
+4 linear and shift-invariant systems
 
     - systems
         - give lots of examples, both LSI and not
@@ -57,7 +67,7 @@ linear and shift-invariant systems
         - convolution, algebraic properties
     
 
-the discrete fourier transform
+5 the discrete fourier transform
 
     - why?
     - (detour to complex appendix)
@@ -66,6 +76,7 @@ the discrete fourier transform
         - rule: any frequency must complete a whole number of cycles ==> analysis frequency
     - attempt 2: phase problem, use a different shift?  multiple shifts?
     - attempt 3: the DFT
+        - complex sinusoids
     - examples:
         - common DFT pairs
         - impulse / sinusoid [delay as special case]
@@ -77,7 +88,7 @@ the discrete fourier transform
         - square, triangle, sawtooth
 
     
-properties of the DFT
+6 properties of the DFT
 
     - linearity
     - the DFT shifting theorem
@@ -85,23 +96,22 @@ properties of the DFT
     - spectral leakage and windowing
 
 
-the inverse DFT
+7 the inverse DFT
     - lemma: comparing two waves of different frequencies = 0 or 1
     - the inverse DFT
     - synthesis-based interpretation of DFT
     - notational cleanup, normalization
-    
 
-advanced DFT: spectrograms and FFT
+7.5 FFT
 
-    - fast fourier transform
+8 advanced DFT: spectrograms
+
     - short-time fourier transform
     - time/frequency trade-off
     - padding and over-sampling
     - choosing a window function
 
-
-convolution theorem
+9 convolution theorem
     - the convolution theorem
         - corollary: the correlation theorem
     - DFT analysis
@@ -111,7 +121,7 @@ convolution theorem
 
 
 
-feedback filters
+10 feedback filters
 
     - linear feedback systems
         - feed-forward and feed-back coefficients
@@ -123,7 +133,7 @@ feedback filters
     - examples
 
 
-the z-transform
+11 the z-transform
 
     - why we can't use the dft
     - generalize DFT -> ZT
@@ -139,7 +149,7 @@ the z-transform
         - confusing poles for zeros
 
 
-conclusion and further readings
+12 conclusion and further readings
 
     - topical/applications texts:
         - FMP
@@ -171,11 +181,11 @@ appendix (background material)
         - why circles?
 
     complex numbers
-        - why complex numbers? multiplication and rotation
-        - basic facts about complex numbers
-        - operations: addition, multiplication, conjugation, modulus
+        x why complex numbers? multiplication and rotation
+        x basic facts about complex numbers
+        x operations: addition, multiplication, conjugation, modulus
 
     complex exponentials
-        - euler's formula / pythagorean theorem
-        - animation with increasing series approximation
-        - complex numbers as waves
+        x euler's formula / pythagorean theorem
+        x animation with increasing series approximation
+        ? complex numbers as waves ==> DFT section
