@@ -51,6 +51,10 @@
   sections:
   - url: /ch03/Building
   - url: /ch03/Convolution
+  - url: /ch03/IR
+  - url: /ch03/Modes
+  - url: /ch03/Properties
+  
   
 - divider: True
 

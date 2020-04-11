@@ -1,21 +1,23 @@
 preface
 
-    - what is this book?
-    - who is it for?
-    - why do we need another book?
-    - outline
+    x what is this book?
+    x who is it for?
+    x why do we need another book?
+    - how to read this book
+    x outline
+    
 
 
 1 signals and sound
     x preliminaries
-        - what is a signal?
-        - basic notation (continuous time)
-        - conventions, starting at 0, silence before recording, etc.
+        x what is a signal?
+        x basic notation (continuous time)
+        x conventions, starting at 0, silence before recording, etc.
 
     x waves: amplitude, frequency, and phase
-        - fundamental period / frequency
-        - why trig functions and not squares or triangles?
-        - ambiguity
+        x fundamental period / frequency
+        x why trig functions and not squares or triangles?
+        x ambiguity
 
     x dimensional analysis
 
@@ -24,36 +26,39 @@ preface
         - harmonics
         - reflection
         - decibel scaling
+    - summary and exercises
 
 
 2 digital sampling
     x discrete time
-        - uniform sampling
-        - sampling rate / sampling period
-        - generating tones
+        x uniform sampling
+        x sampling rate / sampling period
+        x generating tones
     x aliasing
     x band-limiting and the Nyquist-Shannon theorem
-        - negative frequency
+        x negative frequency
     x quantization
 
+    - summary and exercises
 
 3 convolution
     x convolution = delay + gain + mixing
         - examples
     x full definition of convolution
-        - alternate formulation by sample vs by delay
-        - special cases:
-            - delay: h = [0, 0, 0, ..., 1]
-            - gain: h = [G]
-    - impulse response, FIR
-    - properties of convolution
-        - commutative
-        - associative
-        - distributive (over addition)
-    - different convolution modes
-        - valid
-        - same
-        - full
+        x alternate formulation by sample vs by delay
+        x special cases:
+            x delay: h = [0, 0, 0, ..., 1]
+            x gain: h = [G]
+    - impulse response, FIR, RIR
+    x different convolution modes
+        x valid
+        x same
+        x full
+    x properties of convolution
+        x commutative
+        x associative
+        x distributive (over addition)
+    - summary and exercises
 
 4 linear and shift-invariant systems
 
@@ -65,6 +70,7 @@ preface
     - how to determine LSI?
     - properties of LSI systems
         - convolution, algebraic properties
+    - summary and exercises
     
 
 5 the discrete fourier transform
@@ -86,6 +92,7 @@ preface
         - time-reversal and conjugation
         - time-scaling
         - square, triangle, sawtooth
+    - summary and exercises
 
     
 6 properties of the DFT
@@ -94,6 +101,7 @@ preface
     - the DFT shifting theorem
     - conjugate symmetry
     - spectral leakage and windowing
+    - summary and exercises
 
 
 7 the inverse DFT
@@ -101,15 +109,18 @@ preface
     - the inverse DFT
     - synthesis-based interpretation of DFT
     - notational cleanup, normalization
+    - summary and exercises
 
 7.5 FFT
-
+    - summary and exercises
+    
 8 advanced DFT: spectrograms
 
     - short-time fourier transform
     - time/frequency trade-off
     - padding and over-sampling
     - choosing a window function
+    - summary and exercises
 
 9 convolution theorem
     - the convolution theorem
@@ -118,7 +129,7 @@ preface
     - low-pass, high-pass, band-pass filtering
     - DFT processing, circular convolution
     - phase and group delay
-
+    - summary and exercises
 
 
 10 feedback filters
@@ -131,7 +142,7 @@ preface
     - 0-delay filtering
     - filter initialization
     - examples
-
+    - summary and exercises
 
 11 the z-transform
 
@@ -147,7 +158,7 @@ preface
         - off-by-one errors
         - forgetting complex roots
         - confusing poles for zeros
-
+    - summary and exercises
 
 12 conclusion and further readings
 
@@ -177,8 +188,10 @@ appendix (background material)
 
     trigonometry
         - sines and cosines
-        - basic relationships, even/odd, conversion
-        - why circles?
+        - basic relationships (SOHCAHTOA)
+        - even/odd
+        - conversion sin<=>cos
+        
 
     complex numbers
         x why complex numbers? multiplication and rotation
@@ -188,4 +201,4 @@ appendix (background material)
     complex exponentials
         x euler's formula / pythagorean theorem
         x animation with increasing series approximation
-        ? complex numbers as waves ==> DFT section
+        x complex numbers as waves ==> DFT section
