@@ -43,13 +43,13 @@ preface
 
 3 convolution
     x convolution = delay + gain + mixing
-        - examples
+        x examples
     x full definition of convolution
         x alternate formulation by sample vs by delay
         x special cases:
             x delay: h = [0, 0, 0, ..., 1]
             x gain: h = [G]
-    - impulse response, FIR, RIR
+    x impulse response, FIR, RIR
     x different convolution modes
         x valid
         x same
@@ -61,15 +61,12 @@ preface
     - summary and exercises
 
 4 linear and shift-invariant systems
-
-    - systems
-        - give lots of examples, both LSI and not
+    x systems
+        x give lots of examples, both LSI and not
+    - time-shift invariance
     - linearity
         - emphasize that this is useful beyond filtering, and is critical to DFT
-    - time-shift invariance
     - how to determine LSI?
-    - properties of LSI systems
-        - convolution, algebraic properties
     - summary and exercises
     
 

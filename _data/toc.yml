@@ -30,6 +30,9 @@
 - url: /intro
   not_numbered: true
 
+- divider: True
+- header: Part 1, Signals and systems
+
 - url: /ch01/Intro
   expand_sections: False
   sections:
@@ -37,6 +40,8 @@
   - url: /ch01/Waves
   - url: /ch01/Units
   - url: /ch01/Acoustics
+  - url: /ch01/Exercises
+    not_numbered: true
 
 - url: /ch02/intro
   expand_sections: False
@@ -45,6 +50,8 @@
   - url: /ch02/Aliasing
   - url: /ch02/Nyquist
   - url: /ch02/Quantization
+  - url: /ch02/Exercises
+    not_numbered: true
 
 - url: /ch03/intro
   expand_sections: False
@@ -54,10 +61,38 @@
   - url: /ch03/IR
   - url: /ch03/Modes
   - url: /ch03/Properties
+  - url: /ch03/Exercises
+    not_numbered: true
+
   
-  
+- url: /ch04/intro
+  expand_sections: False
+  sections:
+  - url: /ch04/Systems
+  - url: /ch04/Shift-invariance
+  - url: /ch04/Linearity
+  - url: /ch04/Proving
+  - url: /ch04/Exercises
+    not_numbered: true
+
+- divider: True
+- header: Part 2, The frequency domain
+
+- url: /ch05/intro
+  expand_sections: False
+  sections:
+  - url: /ch05/Similarity
+  - url: /ch05/Cosine
+  - url: /ch05/DFT
+  - url: /ch05/Examples
+  - url: /ch05/Exercises
+    not_numbered: true
+
 - divider: True
 
+- header: Part 3, Filtering
+
+- divider: True
 
 - url: /appendix/Intro
   not_numbered: true
@@ -67,3 +102,4 @@
   - url: /appendix/Algebra
   - url: /appendix/Trigonometry
   - url: /appendix/Complex
+  - url: /appendix/Python
