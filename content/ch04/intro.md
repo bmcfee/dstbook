@@ -1,2 +1,2 @@
-# Systems, Linearity, and Shift-Invariance
+# Systems, Shift-Invariance, and Linearity
 

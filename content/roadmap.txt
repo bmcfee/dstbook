@@ -42,6 +42,9 @@ preface
     - summary and exercises
 
 3 convolution
+       {\color{#6E3B87}y}
+       {\color{#EC2830}h}
+       {\color{#0271AE}x}
     x convolution = delay + gain + mixing
         x examples
     x full definition of convolution
@@ -63,10 +66,11 @@ preface
 4 linear and shift-invariant systems
     x systems
         x give lots of examples, both LSI and not
-    - time-shift invariance
+    x time-shift invariance
+       x how to show it
+  
     - linearity
-        - emphasize that this is useful beyond filtering, and is critical to DFT
-    - how to determine LSI?
+        - emphasize that this is useful beyond filtering, and is critical to DFT    
     - summary and exercises
     
 
@@ -122,6 +126,7 @@ preface
 9 convolution theorem
     - the convolution theorem
         - corollary: the correlation theorem
+    - convolution properties
     - DFT analysis
     - low-pass, high-pass, band-pass filtering
     - DFT processing, circular convolution
