@@ -1,7 +1,7 @@
 # Each entry has the following schema:
 #
 # - title: mytitle   # Title of chapter or section
-#   url: /myurl  # URL of section relative to the /content/ folder.
+#   file: content/myurl  # URL of section relative to the /content/ folder.
 #   sections:  # Contains a list of more entries that make up the chapter's sections
 #   not_numbered: true  # if the section shouldn't have a number in the sidebar
 #     (e.g. Introduction or appendices)
@@ -26,79 +26,67 @@
 # ==============================
 
 
+- file: content/intro
 
-- url: /intro
-  not_numbered: true
-
-- divider: True
 - header: Part 1, Signals and systems
 
-- url: /ch01/Intro
+- file: content/ch01/Intro
   expand_sections: False
   sections:
-  - url: /ch01/Preliminaries
-  - url: /ch01/Waves
-  - url: /ch01/Units
-  - url: /ch01/Acoustics
-  - url: /ch01/Exercises
-    not_numbered: true
+  - file: content/ch01/Preliminaries
+  - file: content/ch01/Waves
+  - file: content/ch01/Units
+  - file: content/ch01/Acoustics
+  - file: content/ch01/Exercises
 
-- url: /ch02/intro
+- file: content/ch02/intro
   expand_sections: False
   sections:
-  - url: /ch02/Sampling
-  - url: /ch02/Aliasing
-  - url: /ch02/Nyquist
-  - url: /ch02/Quantization
-  - url: /ch02/Exercises
-    not_numbered: true
+  - file: content/ch02/Sampling
+  - file: content/ch02/Aliasing
+  - file: content/ch02/Nyquist
+  - file: content/ch02/Quantization
+  - file: content/ch02/Exercises
 
-- url: /ch03/intro
+- file: content/ch03/intro
   expand_sections: False
   sections:
-  - url: /ch03/Building
-  - url: /ch03/Convolution
-  - url: /ch03/IR
-  - url: /ch03/Modes
-  - url: /ch03/Properties
-  - url: /ch03/Exercises
-    not_numbered: true
+  - file: content/ch03/Building
+  - file: content/ch03/Convolution
+  - file: content/ch03/IR
+  - file: content/ch03/Modes
+  - file: content/ch03/Properties
+  - file: content/ch03/Exercises
 
   
-- url: /ch04/intro
+- file: content/ch04/intro
   expand_sections: False
   sections:
-  - url: /ch04/Systems
-  - url: /ch04/Shift-invariance
-  - url: /ch04/Linearity
-  - url: /ch04/Exercises
-    not_numbered: true
+  - file: content/ch04/Systems
+  - file: content/ch04/Shift-invariance
+  - file: content/ch04/Linearity
+  - file: content/ch04/Exercises
 
-- divider: True
 - header: Part 2, The frequency domain
 
-- url: /ch05/intro
+- file: content/ch05/intro
   expand_sections: False
   sections:
-  - url: /ch05/Similarity
-  - url: /ch05/Cosine
-  - url: /ch05/DFT
-  - url: /ch05/Examples
-  - url: /ch05/Exercises
-    not_numbered: true
+  - file: content/ch05/Similarity
+  - file: content/ch05/Cosine
+  - file: content/ch05/DFT
+  - file: content/ch05/Examples
+  - file: content/ch05/Exercises
 
-- divider: True
 
 - header: Part 3, Filtering
 
-- divider: True
 
-- url: /appendix/Intro
-  not_numbered: true
+- file: content/appendix/Intro
   expand_sections: False
   sections:
-  - url: /appendix/Fundamentals
-  - url: /appendix/Algebra
-  - url: /appendix/Trigonometry
-  - url: /appendix/Complex
-  - url: /appendix/Python
+  - file: content/appendix/Fundamentals
+  - file: content/appendix/Algebra
+  - file: content/appendix/Trigonometry
+  - file: content/appendix/Complex
+  - file: content/appendix/Python
