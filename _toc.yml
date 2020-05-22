@@ -28,17 +28,10 @@
   - file: content/ch03/IR
   - file: content/ch03/Modes
   - file: content/ch03/Properties
+  - file: content/ch03/LSI
   - file: content/ch03/Exercises
 
   
-- file: content/ch04/intro
-  expand_sections: False
-  sections:
-  - file: content/ch04/Systems
-  - file: content/ch04/Shift-invariance
-  - file: content/ch04/Linearity
-  - file: content/ch04/Exercises
-
 - header: Part 2, The frequency domain
 
 - file: content/ch05/intro
