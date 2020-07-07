@@ -8,6 +8,7 @@ text.usetex: True
 font.family: serif
 font.serif: Palatino
 font.sans-serif: Helvetica Neue
+font.size: 18
 
 lines.linewidth: 4
 lines.markersize: 16
@@ -19,12 +20,13 @@ grid.linewidth: 1.5
 animation.html: html5
 
 legend.frameon: True
-legend.framealpha: 0.9
+legend.framealpha: 0.95
 legend.fontsize: 18
+legend.handlelength: 1
 
 figure.figsize: 8, 8
-figure.dpi: 72
-figure.autolayout: True
+figure.dpi: 90
+figure.constrained_layout.use: True
 
 # colors = ['#0271AE', '#EC2830', '#FFC438',  # blue, red, light orange
 #           '#343837',                        # gray
@@ -33,6 +35,8 @@ figure.autolayout: True
 #           '#88B93B', '#444F95', '#F16232']  # pea green, dark blue, dark orange
 
 axes.grid: True
+axes.xmargin: 0
+axes.ymargin: 0
 axes.axisbelow: True
 axes.labelsize: 16
 axes.titlesize: 18

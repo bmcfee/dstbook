@@ -20,7 +20,7 @@ title: Digital Signals Theory
 author: Brian McFee
 email: brian.mcfee@nyu.edu
 copyright:  "2020"
-logo: "images/logo/dstlogo.png"
+logo: "content/images/logo/dstlogo.png"
 exclude_patterns: []
 
 #######################################################################################
@@ -45,9 +45,10 @@ html:
 # Launch button settings
 launch_buttons:
   notebook_interface        : "classic"  # The interface interactive links will activate ["classic", "jupyterlab"]
-  binderhub_url             : "https://mybinder.org"  # The URL of the BinderHub (e.g., https://mybinder.org)
+  binderhub_url             : ""  # "https://mybinder.org"  # The URL of the BinderHub (e.g., https://mybinder.org)
   jupyterhub_url            : ""  # The URL of the JupyterHub (e.g., https://datahub.berkeley.edu)
   thebelab                  : false  # Add a thebelab button to pages (requires the repository to run on Binder)
+  colab_url                 : "https://colab.research.google.com"
 
 repository:
   url                       : https://github.com/executablebooks/jupyter-book  # The URL to your book's repository
