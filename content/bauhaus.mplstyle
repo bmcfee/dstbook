@@ -1,14 +1,14 @@
 patch.linewidth: 0.5
 xtick.major.pad: 12
-xtick.labelsize: 18
+xtick.labelsize: 14
 ytick.major.pad: 12
-ytick.labelsize: 18
+ytick.labelsize: 14
 
 text.usetex: True
 font.family: serif
 font.serif: Palatino
 font.sans-serif: Helvetica Neue
-font.size: 18
+font.size: 14
 
 lines.linewidth: 4
 lines.markersize: 16
@@ -21,7 +21,7 @@ animation.html: html5
 
 legend.frameon: True
 legend.framealpha: 0.95
-legend.fontsize: 18
+legend.fontsize: 14
 legend.handlelength: 1
 
 figure.figsize: 8, 8
@@ -38,8 +38,12 @@ axes.grid: True
 axes.xmargin: 0
 axes.ymargin: 0
 axes.axisbelow: True
-axes.labelsize: 16
-axes.titlesize: 18
+axes.labelsize: 12
+axes.titlesize: 14
+axes.spines.left: False
+axes.spines.right: False
+axes.spines.top: False
+axes.spines.bottom: False
 axes.prop_cycle: cycler('color', ['0271AE', 'EC2830', 'FFC438', '343837', '6E3B87', '008D5D', 'FA902D', '0095B7', 'CB0C7B', 'F7E43C', '88B93B', '444F95', 'F16232'])
 
 
