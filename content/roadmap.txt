@@ -78,8 +78,8 @@ preface
 
     - why?
     - (detour to complex appendix)
-    - attempt 1: correlating with cosines
-        - define comparison as sum-of-product
+    x attempt 1: correlating with cosines
+        x define comparison as sum-of-product
         - rule: any frequency must complete a whole number of cycles ==> analysis frequency
     - attempt 2: phase problem, use a different shift?  multiple shifts?
     - attempt 3: the DFT
