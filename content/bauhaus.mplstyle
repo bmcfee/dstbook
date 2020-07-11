@@ -36,7 +36,7 @@ figure.constrained_layout.use: True
 
 axes.grid: True
 axes.xmargin: 0
-axes.ymargin: 0
+#axes.ymargin: 0
 axes.axisbelow: True
 axes.labelsize: 12
 axes.titlesize: 14
