@@ -17,7 +17,8 @@ grid.color: 0.0
 grid.linestyle: -
 grid.alpha: 0.2
 grid.linewidth: 1.5
-animation.html: html5
+# animation.html: html5
+animation.html: jshtml
 
 legend.frameon: True
 legend.framealpha: 0.95
@@ -45,6 +46,3 @@ axes.spines.right: False
 axes.spines.top: False
 axes.spines.bottom: False
 axes.prop_cycle: cycler('color', ['0271AE', 'EC2830', 'FFC438', '343837', '6E3B87', '008D5D', 'FA902D', '0095B7', 'CB0C7B', 'F7E43C', '88B93B', '444F95', 'F16232'])
-
-
-

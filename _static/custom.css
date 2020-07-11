@@ -4,6 +4,7 @@
     float: left !important;
 }
 
+
 /*
 colors = ['#0271AE', '#EC2830', '#FFC438',  # blue, red, light orange
             '#6E3B87', '#008D5D', '#FA902D',  # purple, green, orange
@@ -32,4 +33,12 @@ div.section {
     text-justify: inter-word;
 }
 
-pre { font-family: monospace;}
+/* Fixing up some pygments and code-styling CSS for accessibility */
+code { font-size: 100%; color: #444F95; }
+pre { font-family: monospace; }
+
+/* .highlight { font-size: 125%; } */
+.highlight .c1 { color: #633B87; }
+.highlight .si { color: #633B87; }
+.highlight .nn { color: #633B87; }
+
