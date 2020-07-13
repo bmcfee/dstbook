@@ -44,4 +44,4 @@ This has a few benefits over traditional texts:
 This interactive book was originally created by [Brian McFee][brm] to accompany the Fundamentals of Digital Signals Theory course at New York
 University.
 
-[brm]: https://bmcfee.github.io/
+[brm]: https://brianmcfee.net/

@@ -11,6 +11,8 @@ preface
 1 signals and sound
     x preliminaries
         x what is a signal?
+            - intro zoom-in
+            - outline of concepts in the book
         x basic notation (continuous time)
         x conventions, starting at 0, silence before recording, etc.
 
@@ -26,7 +28,8 @@ preface
         - harmonics
         - reflection
         - decibel scaling
-    - summary and exercises
+    - summary/history
+    - exercises
 
 
 2 digital sampling
@@ -39,7 +42,8 @@ preface
         x negative frequency
     x quantization
 
-    - summary and exercises
+    - summary/history
+    - exercises
 
 3 convolution
        {\color{#6E3B87}y}
@@ -61,8 +65,10 @@ preface
         x commutative
         x associative
         x distributive (over addition)
-    - summary and exercises
+    - summary/history
+    - exercises
 
+--redacted
 4 linear and shift-invariant systems
     x systems
         x give lots of examples, both LSI and not
@@ -72,7 +78,7 @@ preface
     - linearity
         - emphasize that this is useful beyond filtering, and is critical to DFT    
     - summary and exercises
-    
+---
 
 5 the discrete fourier transform
 
@@ -80,10 +86,10 @@ preface
     - (detour to complex appendix)
     x attempt 1: correlating with cosines
         x define comparison as sum-of-product
-        - rule: any frequency must complete a whole number of cycles ==> analysis frequency
-    - attempt 2: phase problem, use a different shift?  multiple shifts?
-    - attempt 3: the DFT
-        - complex sinusoids
+        x rule: any frequency must complete a whole number of cycles ==> analysis frequency
+    x attempt 2: phase problem, use a different shift?  multiple shifts?
+    x attempt 3: the DFT
+        x complex sinusoids
     - examples:
         - common DFT pairs
         - impulse / sinusoid [delay as special case]
@@ -113,7 +119,11 @@ preface
     - summary and exercises
 
 7.5 FFT
-    - summary and exercises
+    - time-analysis of the DFT
+    - cooley-tukey
+    - recommendations
+    - summary/history
+    - exercises
     
 8 advanced DFT: spectrograms
 
@@ -121,7 +131,8 @@ preface
     - time/frequency trade-off
     - padding and over-sampling
     - choosing a window function
-    - summary and exercises
+    - summary/history
+    - exercises
 
 9 convolution theorem
     - the convolution theorem
@@ -131,7 +142,8 @@ preface
     - low-pass, high-pass, band-pass filtering
     - DFT processing, circular convolution
     - phase and group delay
-    - summary and exercises
+    - summary/history
+    - exercises
 
 
 10 feedback filters
@@ -144,7 +156,8 @@ preface
     - 0-delay filtering
     - filter initialization
     - examples
-    - summary and exercises
+    - summary/history
+    - exercises
 
 11 the z-transform
 
@@ -160,7 +173,8 @@ preface
         - off-by-one errors
         - forgetting complex roots
         - confusing poles for zeros
-    - summary and exercises
+    - summary/history
+    - exercises
 
 12 conclusion and further readings
 
@@ -178,6 +192,7 @@ appendix (background material)
     mathematical fundamentals
         x sets, number types, and common notation (isin)
         x variables
+        - modular arithmetic
         x sequences
         x summations
         x exponentials
@@ -193,6 +208,7 @@ appendix (background material)
         - basic relationships (SOHCAHTOA)
         - even/odd
         - conversion sin<=>cos
+        - product-to-sum, sum-to-product rules
         
 
     complex numbers
@@ -200,7 +216,15 @@ appendix (background material)
         x basic facts about complex numbers
         x operations: addition, multiplication, conjugation, modulus
 
-    complex exponentials
-        x euler's formula / pythagorean theorem
-        x animation with increasing series approximation
-        x complex numbers as waves ==> DFT section
+        complex exponentials
+            x euler's formula / pythagorean theorem
+            x animation with increasing series approximation
+            x complex numbers as waves ==> DFT section
+        
+    programming in python
+        - variables
+        - loops
+        - functions
+        - numpy
+        - plotting
+        - environments

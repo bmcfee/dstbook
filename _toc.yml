@@ -2,46 +2,47 @@
 
 - header: Part 1, Signals and systems
 
-- file: content/ch01/Intro
+- file: content/ch01-signals/Intro
   expand_sections: False
   sections:
-  - file: content/ch01/Preliminaries
-  - file: content/ch01/Waves
-  - file: content/ch01/Units
-  - file: content/ch01/Acoustics
-  - file: content/ch01/Exercises
+  - file: content/ch01-signals/Preliminaries
+  - file: content/ch01-signals/Waves
+  - file: content/ch01-signals/Units
+  - file: content/ch01-signals/Acoustics
+  - file: content/ch01-signals/Exercises
 
-- file: content/ch02/intro
+- file: content/ch02-sampling/intro
   expand_sections: False
   sections:
-  - file: content/ch02/Sampling
-  - file: content/ch02/Aliasing
-  - file: content/ch02/Nyquist
-  - file: content/ch02/Quantization
-  - file: content/ch02/Exercises
+  - file: content/ch02-sampling/Sampling
+  - file: content/ch02-sampling/Aliasing
+  - file: content/ch02-sampling/Nyquist
+  - file: content/ch02-sampling/Quantization
+  - file: content/ch02-sampling/Exercises
 
-- file: content/ch03/intro
+- file: content/ch03-convolution/intro
   expand_sections: False
   sections:
-  - file: content/ch03/Building
-  - file: content/ch03/Convolution
-  - file: content/ch03/IR
-  - file: content/ch03/Modes
-  - file: content/ch03/Properties
-  - file: content/ch03/LSI
-  - file: content/ch03/Exercises
+  - file: content/ch03-convolution/Building
+  - file: content/ch03-convolution/Convolution
+  - file: content/ch03-convolution/IR
+  - file: content/ch03-convolution/Modes
+  - file: content/ch03-convolution/Properties
+  - file: content/ch03-convolution/LSI
+  - file: content/ch03-convolution/Exercises
 
   
 - header: Part 2, The frequency domain
 
-- file: content/ch05/intro
+- file: content/ch04-fourier/intro
   expand_sections: False
   sections:
-  - file: content/ch05/Similarity
-  - file: content/ch05/Cosine
-  - file: content/ch05/DFT
-  - file: content/ch05/Examples
-  - file: content/ch05/Exercises
+  - file: content/ch04-fourier/Similarity
+  - file: content/ch04-fourier/Cosine
+  - file: content/ch04-fourier/Phase
+  - file: content/ch04-fourier/DFT
+  - file: content/ch04-fourier/Examples
+  - file: content/ch04-fourier/Exercises
 
 
 - header: Part 3, Filtering

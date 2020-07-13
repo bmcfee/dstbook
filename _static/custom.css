@@ -6,13 +6,13 @@
 
 
 /*
-colors = ['#0271AE', '#EC2830', '#FFC438',  # blue, red, light orange
+colors = ['#0271AE', '#DC2830', '#FFC438',  # blue, red, light orange
             '#6E3B87', '#008D5D', '#FA902D',  # purple, green, orange
             '#0095B7', '#CB0C7B', '#F7E43C',  # cyan, magenta, yellow
             '#88B93B', '#444F95', '#F16232']  # pea green, dark blue, dark orange
 */
 .blue {color: #0271AE;}
-.red {color: #EC2830;}
+.red {color: #DC2830;}
 .orange {color: #FFC438;}
 .purple {color: #633B87;}
 .green {color: #008D5D;}
@@ -29,6 +29,11 @@ div, h1, h2, h3, h4, h5, h6 {
 }
 
 div.section {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+p.caption {
     text-align: justify;
     text-justify: inter-word;
 }
