@@ -44,6 +44,14 @@
   - file: content/ch04-fourier/Examples
   - file: content/ch04-fourier/Exercises
 
+- file: content/ch05-dft-properties/intro
+  expand_sections: False
+  sections:
+  - file: content/ch05-dft-properties/Linearity
+  - file: content/ch05-dft-properties/Shifting
+  - file: content/ch05-dft-properties/Conjugate-Symmetry
+  - file: content/ch05-dft-properties/Leakage
+  - file: content/ch05-dft-properties/Exercises
 
 - header: Part 3, Filtering
 

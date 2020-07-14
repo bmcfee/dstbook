@@ -92,13 +92,15 @@ preface
         x complex sinusoids
     - examples:
         - common DFT pairs
-        - impulse / sinusoid [delay as special case]
+        x impulse / sinusoid [delay as special case]
+        --- push the below to convolution thorem section
         - box and sinc
         - triangle and sinc^2
         - comb and comb
         - time-reversal and conjugation
         - time-scaling
         - square, triangle, sawtooth
+        x real-world example
     - summary and exercises
 
     
@@ -112,7 +114,7 @@ preface
 
 
 7 the inverse DFT
-    - lemma: comparing two waves of different frequencies = 0 or 1
+    - lemma: comparing two waves of different analysis frequencies = 0 or 1
     - the inverse DFT
     - synthesis-based interpretation of DFT
     - notational cleanup, normalization
