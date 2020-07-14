@@ -106,7 +106,7 @@ preface
     
 6 properties of the DFT
 
-    - linearity
+    x linearity
     - the DFT shifting theorem
     - conjugate symmetry
     - spectral leakage and windowing
@@ -121,7 +121,7 @@ preface
 
 7.5 FFT
     - time-analysis of the DFT
-    - cooley-tukey
+    - cooley-tukey (just radix-2 case)
     - recommendations
     - summary/history
     - exercises
