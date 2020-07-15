@@ -1,8 +1,12 @@
 patch.linewidth: 0.5
 xtick.major.pad: 12
 xtick.labelsize: 14
+xtick.color: (0, 0, 0, 0.2)
+xtick.labelcolor: black
 ytick.major.pad: 12
 ytick.labelsize: 14
+ytick.color: (0, 0, 0, 0.2)
+ytick.labelcolor: black
 
 text.usetex: True
 font.family: serif
@@ -16,9 +20,11 @@ lines.markeredgewidth: 0
 grid.color: 0.0
 grid.linestyle: -
 grid.alpha: 0.2
-grid.linewidth: 1.5
+grid.linewidth: .5
 # animation.html: html5
 animation.html: jshtml
+animation.frame_format: png
+savefig.transparent: True
 
 legend.frameon: True
 legend.framealpha: 0.95
@@ -41,6 +47,7 @@ axes.xmargin: 0
 axes.axisbelow: True
 axes.labelsize: 12
 axes.titlesize: 14
+axes.facecolor: (1, 1, 1, 0)
 axes.spines.left: False
 axes.spines.right: False
 axes.spines.top: False

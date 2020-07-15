@@ -4,6 +4,7 @@
     float: left !important;
 }
 
+body { background-color: #fefefa;}
 
 /*
 colors = ['#0271AE', '#DC2830', '#FFC438',  # blue, red, light orange
@@ -46,4 +47,3 @@ pre { font-family: monospace; }
 .highlight .c1 { color: #633B87; }
 .highlight .si { color: #633B87; }
 .highlight .nn { color: #633B87; }
-

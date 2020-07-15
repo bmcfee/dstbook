@@ -8,4 +8,5 @@ Specifically, we'll cover the following four topics:
 - Conjugate symmetry: what is going on with negative frequencies?
 - Spectral leakage: what happens to non-analysis frequencies?
 
-A good understanding of these properties will help us reason about the DFT applied to more complicated signals, and eventually, what the DFT can tell us about filtering.
+A fair word of warning: this chapter will be technical and possibly a bit dry.
+However, a good understanding of these properties will help us reason about the DFT applied to more complicated signals, and eventually, what the DFT can tell us about filtering.
