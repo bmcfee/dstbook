@@ -5,6 +5,10 @@
 }
 
 body { background-color: #fefefa;}
+div.cell div.cell_input {
+    background-color: #f7f7f3;
+}
+
 
 /*
 colors = ['#0271AE', '#DC2830', '#FFC438',  # blue, red, light orange

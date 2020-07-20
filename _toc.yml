@@ -39,9 +39,11 @@
   sections:
   - file: content/ch04-fourier/Similarity
   - file: content/ch04-fourier/Cosine
+  - file: content/ch04-fourier/AnalysisFrequencies
   - file: content/ch04-fourier/Phase
   - file: content/ch04-fourier/DFT
   - file: content/ch04-fourier/Examples
+  - file: content/ch04-fourier/SummingSinusoids
   - file: content/ch04-fourier/Exercises
 
 - file: content/ch05-dft-properties/intro
@@ -60,6 +62,6 @@
 
 - file: content/appendix/Fundamentals
 - file: content/appendix/Algebra
-- file: content/appendix/Trigonometry
 - file: content/appendix/Complex
+- file: content/appendix/Trigonometry
 - file: content/appendix/Python

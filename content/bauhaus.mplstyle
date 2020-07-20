@@ -30,6 +30,7 @@ legend.frameon: True
 legend.framealpha: 0.95
 legend.fontsize: 14
 legend.handlelength: 1
+# legend.labelcolor: markerfacecolor
 
 figure.figsize: 8, 8
 figure.dpi: 90
@@ -43,7 +44,7 @@ figure.constrained_layout.use: True
 
 axes.grid: True
 axes.xmargin: 0
-#axes.ymargin: 0
+#axes.ymargin: 0.05
 axes.axisbelow: True
 axes.labelsize: 12
 axes.titlesize: 14

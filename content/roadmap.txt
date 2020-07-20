@@ -1,12 +1,47 @@
+TODOs
+
+- acknowledgements
+  - jupyterbook team
+  - numpy, scipy, matplotlib devs
+
+- signals
+  - animated zoom-in to illustrate periodicity
+  
+- convolution
+  - drop reference to LSI chapter
+  - add more examples of filtering (low-pass, high-pass)
+  
+- DFT
+  x use scipy.io instead of soundfile  (XX: no)
+  x dft circle plot: show angles and radii
+  - move appendix on wave cancellation -> analysis / phase section
+  - separate out phase section
+  - fix angle of sine plot in figure 42
+  
+  
+- DFT properties
+  - linearity: animated mixing
+  - animation for the shifting theorem
+  - figure out self-loops on the conjugate-symmetry plots  
+
+
+- fundamentals
+  x plot exponential curve
+  
+- complex
+  - show rectangles for complex numbers
+  - addition: animate translation
+
 preface
 
     x what is this book?
     x who is it for?
     x why do we need another book?
     - how to read this book
+      - animation
+      - live code
     x outline
     
-
 
 1 signals and sound
     x preliminaries
@@ -46,9 +81,6 @@ preface
     - exercises
 
 3 convolution
-       {\color{#6E3B87}y}
-       {\color{#EC2830}h}
-       {\color{#0271AE}x}
     x convolution = delay + gain + mixing
         x examples
     x full definition of convolution
@@ -107,13 +139,14 @@ preface
 6 properties of the DFT
 
     x linearity
-    - the DFT shifting theorem
-    - conjugate symmetry
+    x the DFT shifting theorem
+    x conjugate symmetry
     - spectral leakage and windowing
     - summary and exercises
 
 7 the inverse DFT
-    - lemma: comparing two waves of different analysis frequencies = 0 or 1
+    - lemma: comparing two waves of different analysis frequencies = 0 or N
+        --> move this up to chapter 4 or 5?  we need it for leakage
     - the inverse DFT
     - synthesis-based interpretation of DFT
     - notational cleanup, normalization
