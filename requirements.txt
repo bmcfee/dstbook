@@ -4,7 +4,8 @@ pandas
 numpy
 datascience
 folium
-matplotlib
+matplotlib>=3.3
 nbinteract
 scipy
 jupyter-book>=0.7
+pysoundfile
