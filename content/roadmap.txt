@@ -8,7 +8,7 @@ TODOs
   - animated zoom-in to illustrate periodicity
   
 - convolution
-  - drop reference to LSI chapter
+  x drop reference to LSI chapter
   - add more examples of filtering (low-pass, high-pass)
   
 - DFT
@@ -23,6 +23,7 @@ TODOs
   - linearity: animated mixing
   - animation for the shifting theorem
   - figure out self-loops on the conjugate-symmetry plots  
+  - colorize the derivations
 
 
 - fundamentals

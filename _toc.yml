@@ -4,6 +4,7 @@
 
 - file: content/ch01-signals/Intro
   expand_sections: False
+  numbered: True
   sections:
   - file: content/ch01-signals/Preliminaries
   - file: content/ch01-signals/Waves
@@ -13,6 +14,7 @@
 
 - file: content/ch02-sampling/intro
   expand_sections: False
+  numbered: True
   sections:
   - file: content/ch02-sampling/Sampling
   - file: content/ch02-sampling/Aliasing
@@ -22,6 +24,7 @@
 
 - file: content/ch03-convolution/intro
   expand_sections: False
+  numbered: True
   sections:
   - file: content/ch03-convolution/Building
   - file: content/ch03-convolution/Convolution
@@ -36,6 +39,7 @@
 
 - file: content/ch04-fourier/intro
   expand_sections: False
+  numbered: True
   sections:
   - file: content/ch04-fourier/Similarity
   - file: content/ch04-fourier/Cosine
@@ -48,6 +52,7 @@
 
 - file: content/ch05-dft-properties/intro
   expand_sections: False
+  numbered: True
   sections:
   - file: content/ch05-dft-properties/Linearity
   - file: content/ch05-dft-properties/Shifting
