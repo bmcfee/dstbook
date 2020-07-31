@@ -4,6 +4,9 @@ TODOs
   - jupyterbook team
   - numpy, scipy, matplotlib devs
 
+- replace plots with step-plots throughout when using discrete signals
+    - set the default where='post'
+
 - signals
   - animated zoom-in to illustrate periodicity
   
