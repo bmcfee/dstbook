@@ -14,8 +14,8 @@ font.serif: Palatino
 font.sans-serif: Helvetica Neue
 font.size: 14
 
-lines.linewidth: 4
-lines.markersize: 16
+lines.linewidth: 2
+lines.markersize: 8
 lines.markeredgewidth: 0
 grid.color: 0.0
 grid.linestyle: -

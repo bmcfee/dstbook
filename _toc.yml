@@ -60,6 +60,13 @@
   - file: content/ch05-dft-properties/Leakage
   - file: content/ch05-dft-properties/Exercises
 
+- file: content/ch06-inverse-dft/intro
+  expand_sections: False
+  numbered: True
+  sections:
+  - file: content/ch06-inverse-dft/InverseDFT
+  - file: content/ch06-inverse-dft/DFT-Synthesis
+
 - header: Part 3, Filtering
 
 

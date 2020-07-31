@@ -4,8 +4,8 @@ TODOs
   - jupyterbook team
   - numpy, scipy, matplotlib devs
 
-- replace plots with step-plots throughout when using discrete signals
-    - set the default where='post'
+x replace plots with step-plots throughout when using discrete signals
+    x set the default where='post'
 
 - signals
   - animated zoom-in to illustrate periodicity
@@ -116,7 +116,7 @@ preface
     - summary and exercises
 ---
 
-5 the discrete fourier transform
+4 the discrete fourier transform
 
     - why?
     - (detour to complex appendix)
@@ -140,21 +140,20 @@ preface
     - summary and exercises
 
     
-6 properties of the DFT
+5 properties of the DFT
 
     x linearity
     x the DFT shifting theorem
     x conjugate symmetry
-    - spectral leakage and windowing
+    x spectral leakage and windowing
     - summary and exercises
 
-7 the inverse DFT
-    - the inverse DFT
+6 the inverse DFT
+    x the inverse DFT
     - synthesis-based interpretation of DFT
-    - notational cleanup, normalization
     - summary and exercises
 
-7.5 FFT
+7 FFT
     - time-analysis of the DFT
     - cooley-tukey (just radix-2 case)
     - recommendations
