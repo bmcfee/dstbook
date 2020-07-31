@@ -65,7 +65,7 @@
   numbered: True
   sections:
   - file: content/ch06-inverse-dft/InverseDFT
-  - file: content/ch06-inverse-dft/DFT-Synthesis
+  - file: content/ch06-inverse-dft/Exercises
 
 - header: Part 3, Filtering
 
