@@ -46,6 +46,7 @@ preface
       - live code
     x outline
     
+--- part 1
 
 1 signals and sound
     x preliminaries
@@ -114,7 +115,8 @@ preface
     - linearity
         - emphasize that this is useful beyond filtering, and is critical to DFT    
     - summary and exercises
----
+
+--- part 2
 
 4 the discrete fourier transform
 
@@ -154,11 +156,11 @@ preface
     - summary and exercises
 
 7 FFT
-    - time-analysis of the DFT
-    - cooley-tukey (just radix-2 case)
-    - recommendations
-    - summary/history
-    - exercises
+    x time-analysis of the DFT
+    x cooley-tukey (just radix-2 case)
+    x recommendations
+    x summary/history
+    x exercises
     
 8 advanced DFT: spectrograms
 
@@ -168,6 +170,8 @@ preface
     - choosing a window function
     - summary/history
     - exercises
+
+--- part 3
 
 9 convolution theorem
     - the convolution theorem
@@ -220,6 +224,8 @@ preface
     - more in-depth DSP:
         - oppenheim and schaffer
         - stephan mallat / wavelets?
+
+--- appendix
 
 
 appendix (background material)

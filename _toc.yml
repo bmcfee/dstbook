@@ -67,6 +67,14 @@
   - file: content/ch06-inverse-dft/InverseDFT
   - file: content/ch06-inverse-dft/Exercises
 
+- file: content/ch07-fft/intro
+  expand_sections: False
+  numbered: True
+  sections:
+  - file: content/ch07-fft/DFT-Analysis
+  - file: content/ch07-fft/FFT
+  - file: content/ch07-fft/Exercises
+
 - header: Part 3, Filtering
 
 
