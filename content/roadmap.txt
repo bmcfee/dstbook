@@ -1,8 +1,8 @@
 TODOs
 
-- acknowledgements
-  - jupyterbook team
-  - numpy, scipy, matplotlib devs
+x acknowledgements
+  x jupyterbook team
+  x numpy, scipy, matplotlib devs
 
 x replace plots with step-plots throughout when using discrete signals
     x set the default where='post'
@@ -10,6 +10,10 @@ x replace plots with step-plots throughout when using discrete signals
 - signals
   - animated zoom-in to illustrate periodicity
   
+x sampling
+    x be explicit about step plots for discrete signals
+    x add steps to quantization animation
+    
 - convolution
   x drop reference to LSI chapter
   - add more examples of filtering (low-pass, high-pass)
@@ -35,6 +39,7 @@ x replace plots with step-plots throughout when using discrete signals
 - complex
   - show rectangles for complex numbers
   - addition: animate translation
+  - fix the complex wave animation
 
 preface
 

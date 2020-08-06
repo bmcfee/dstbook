@@ -1,87 +1,72 @@
 - file: content/intro
-
-- header: Part 1, Signals and systems
-
-- file: content/ch01-signals/Intro
-  expand_sections: False
   numbered: True
-  sections:
-  - file: content/ch01-signals/Preliminaries
-  - file: content/ch01-signals/Waves
-  - file: content/ch01-signals/Units
-  - file: content/ch01-signals/Acoustics
-  - file: content/ch01-signals/Exercises
 
-- file: content/ch02-sampling/intro
-  expand_sections: False
-  numbered: True
-  sections:
-  - file: content/ch02-sampling/Sampling
-  - file: content/ch02-sampling/Aliasing
-  - file: content/ch02-sampling/Nyquist
-  - file: content/ch02-sampling/Quantization
-  - file: content/ch02-sampling/Exercises
-
-- file: content/ch03-convolution/intro
-  expand_sections: False
-  numbered: True
-  sections:
-  - file: content/ch03-convolution/Building
-  - file: content/ch03-convolution/Convolution
-  - file: content/ch03-convolution/IR
-  - file: content/ch03-convolution/Modes
-  - file: content/ch03-convolution/Properties
-  - file: content/ch03-convolution/LSI
-  - file: content/ch03-convolution/Exercises
-
+- part: Part 1, Signals and systems
+  chapters:
+  - file: content/ch01-signals/Intro
+    expand_sections: False
+    sections:
+    - file: content/ch01-signals/Preliminaries
+    - file: content/ch01-signals/Waves
+    - file: content/ch01-signals/Units
+    - file: content/ch01-signals/Acoustics
+    - file: content/ch01-signals/Exercises
+  - file: content/ch02-sampling/intro
+    expand_sections: False
+    sections:
+    - file: content/ch02-sampling/Sampling
+    - file: content/ch02-sampling/Aliasing
+    - file: content/ch02-sampling/Nyquist
+    - file: content/ch02-sampling/Quantization
+    - file: content/ch02-sampling/Exercises
+  - file: content/ch03-convolution/intro
+    expand_sections: False
+    sections:
+    - file: content/ch03-convolution/Building
+    - file: content/ch03-convolution/Convolution
+    - file: content/ch03-convolution/IR
+    - file: content/ch03-convolution/Modes
+    - file: content/ch03-convolution/Properties
+    - file: content/ch03-convolution/LSI
+    - file: content/ch03-convolution/Exercises
   
-- header: Part 2, The frequency domain
+- part: Part 2, The frequency domain
+  chapters:
+  - file: content/ch04-fourier/intro
+    expand_sections: False
+    sections:
+    - file: content/ch04-fourier/Similarity
+    - file: content/ch04-fourier/Cosine
+    - file: content/ch04-fourier/AnalysisFrequencies
+    - file: content/ch04-fourier/Phase
+    - file: content/ch04-fourier/DFT
+    - file: content/ch04-fourier/Examples
+    - file: content/ch04-fourier/SummingSinusoids
+    - file: content/ch04-fourier/Exercises
+  - file: content/ch05-dft-properties/intro
+    expand_sections: False
+    sections:
+    - file: content/ch05-dft-properties/Linearity
+    - file: content/ch05-dft-properties/Shifting
+    - file: content/ch05-dft-properties/Conjugate-Symmetry
+    - file: content/ch05-dft-properties/Leakage
+    - file: content/ch05-dft-properties/Exercises
+  - file: content/ch06-inverse-dft/intro
+    expand_sections: False
+    sections:
+    - file: content/ch06-inverse-dft/InverseDFT
+    - file: content/ch06-inverse-dft/Exercises
+  - file: content/ch07-fft/intro
+    expand_sections: False
+    sections:
+    - file: content/ch07-fft/DFT-Analysis
+    - file: content/ch07-fft/FFT
+    - file: content/ch07-fft/Exercises
 
-- file: content/ch04-fourier/intro
-  expand_sections: False
-  numbered: True
-  sections:
-  - file: content/ch04-fourier/Similarity
-  - file: content/ch04-fourier/Cosine
-  - file: content/ch04-fourier/AnalysisFrequencies
-  - file: content/ch04-fourier/Phase
-  - file: content/ch04-fourier/DFT
-  - file: content/ch04-fourier/Examples
-  - file: content/ch04-fourier/SummingSinusoids
-  - file: content/ch04-fourier/Exercises
-
-- file: content/ch05-dft-properties/intro
-  expand_sections: False
-  numbered: True
-  sections:
-  - file: content/ch05-dft-properties/Linearity
-  - file: content/ch05-dft-properties/Shifting
-  - file: content/ch05-dft-properties/Conjugate-Symmetry
-  - file: content/ch05-dft-properties/Leakage
-  - file: content/ch05-dft-properties/Exercises
-
-- file: content/ch06-inverse-dft/intro
-  expand_sections: False
-  numbered: True
-  sections:
-  - file: content/ch06-inverse-dft/InverseDFT
-  - file: content/ch06-inverse-dft/Exercises
-
-- file: content/ch07-fft/intro
-  expand_sections: False
-  numbered: True
-  sections:
-  - file: content/ch07-fft/DFT-Analysis
-  - file: content/ch07-fft/FFT
-  - file: content/ch07-fft/Exercises
-
-- header: Part 3, Filtering
-
-
-- header: Appendix
-
-- file: content/appendix/Fundamentals
-- file: content/appendix/Algebra
-- file: content/appendix/Complex
-- file: content/appendix/Trigonometry
-- file: content/appendix/Python
+- part: Appendix
+  chapters:
+  - file: content/appendix/Fundamentals
+  - file: content/appendix/Algebra
+  - file: content/appendix/Complex
+  - file: content/appendix/Trigonometry
+  - file: content/appendix/Python

@@ -1,7 +1,5 @@
 # Preface
 
-## What does this book cover
-
 This book is designed to follow the course syllabus of *Fundamentals of Digital Signals Theory (I)* (MPATE-GE 2599) at New York University.
 The focus here is on *digital* signals, meaning discrete time signals as represented in modern computers.
 Unlike many other books, we do not cover continuous time signals (except insofar as necessary to understand digital sampling).
@@ -22,7 +20,7 @@ In some places we'll have to gloss over a couple of technical details, but my ho
 mathematical background.
 
 I've tried to make the contents of this book self-contained, and provide supplementary background material in the appendix.
-That said, we do have to start somewhere though, and I generally expect readers to have familiarity with high-school level algebra and geometry.
+That said, we do have to start somewhere, and I generally expect readers to have familiarity with high-school level algebra and geometry.
 
 ## Why another book?
 
@@ -43,5 +41,13 @@ This has a few benefits over traditional texts:
 
 This interactive book was originally created by [Brian McFee][brm] to accompany the Fundamentals of Digital Signals Theory course at New York
 University.
+
+This project would not have been possible without the tireless efforts of the open source software developers, especially contributors to the following projects:
+- [NumPy](https://numpy.org/)
+- [SciPy](https://scipy.org/)
+- [Matplotlib](https://matplotlib.org/)
+- [Jupyter](https://jupyter.org)
+- [Jupyter-Book](https://jupyterbook.org)
+- [Sphinx](https://www.sphinx-doc.org)
 
 [brm]: https://brianmcfee.net/
