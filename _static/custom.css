@@ -42,6 +42,10 @@ p.caption {
     text-align: justify;
     text-justify: inter-word;
 }
+span.caption-text {
+    text-align: left;
+    text-justify: auto;
+}
 
 /* Fixing up some pygments and code-styling CSS for accessibility */
 code { font-size: 100%; color: #444F95; }

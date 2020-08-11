@@ -18,6 +18,11 @@ x sampling
   x drop reference to LSI chapter
   - add more examples of filtering (low-pass, high-pass)
   
+  
+- appendix / math
+    - logarithms
+    - scientific notation
+    
 - DFT
   x use scipy.io instead of soundfile  (XX: no)
   x dft circle plot: show angles and radii

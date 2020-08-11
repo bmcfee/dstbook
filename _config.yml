@@ -21,7 +21,7 @@ author: Brian McFee
 email: brian.mcfee@nyu.edu
 copyright:  "2020"
 logo: "content/images/logo/dstlogo.png"
-exclude_patterns: []
+exclude_patterns: [content/unused/*, content/setup.ipynb]
 
 #######################################################################################
 # Execution settings
