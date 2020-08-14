@@ -8,7 +8,7 @@ x replace plots with step-plots throughout when using discrete signals
     x set the default where='post'
 
 - signals
-  - animated zoom-in to illustrate periodicity
+  - animated zoom-in to illustrate periodicity ==> STFT
   
 x sampling
     x be explicit about step plots for discrete signals
@@ -20,7 +20,7 @@ x sampling
   
   
 - appendix / math
-    - logarithms
+    x logarithms
     - scientific notation
     
 - DFT
@@ -79,7 +79,7 @@ preface
         - reflection
         - decibel scaling
     - summary/history
-    - exercises
+    x exercises
 
 
 2 digital sampling
@@ -93,7 +93,7 @@ preface
     x quantization
 
     - summary/history
-    - exercises
+    x exercises
 
 3 convolution
     x convolution = delay + gain + mixing
@@ -113,7 +113,7 @@ preface
         x associative
         x distributive (over addition)
     - summary/history
-    - exercises
+    x exercises
 
 --redacted
 4 linear and shift-invariant systems
@@ -149,7 +149,7 @@ preface
         - time-scaling
         - square, triangle, sawtooth
         x real-world example
-    - summary and exercises
+    x summary and exercises
 
     
 5 properties of the DFT
@@ -158,12 +158,12 @@ preface
     x the DFT shifting theorem
     x conjugate symmetry
     x spectral leakage and windowing
-    - summary and exercises
+    x summary and exercises
 
 6 the inverse DFT
     x the inverse DFT
     - synthesis-based interpretation of DFT
-    - summary and exercises
+    x summary and exercises
 
 7 FFT
     x time-analysis of the DFT
@@ -174,12 +174,13 @@ preface
     
 8 advanced DFT: spectrograms
 
-    - short-time fourier transform
-    - time/frequency trade-off
-    - padding and over-sampling
-    - choosing a window function
+    x framing
+    x short-time fourier transform
+    x time/frequency trade-off
+        - padding and over-sampling
+    - inverse-STFT
     - summary/history
-    - exercises
+    x exercises
 
 --- part 3
 

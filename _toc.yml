@@ -62,6 +62,12 @@
     - file: content/ch07-fft/DFT-Analysis
     - file: content/ch07-fft/FFT
     - file: content/ch07-fft/Exercises
+  - file: content/ch08-stft/intro
+    expand_sections: False
+    sections:
+    - file: content/ch08-stft/Framing
+    - file: content/ch08-stft/STFT
+    - file: content/ch08-stft/Exercises
 
 - part: Appendix
   chapters:

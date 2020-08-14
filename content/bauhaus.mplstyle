@@ -14,8 +14,8 @@ font.serif: Palatino
 font.sans-serif: Helvetica Neue
 font.size: 14
 
-lines.linewidth: 2
-lines.markersize: 8
+lines.linewidth: 3
+lines.markersize: 10
 lines.markeredgewidth: 0
 grid.color: 0.0
 grid.linestyle: -
@@ -35,6 +35,8 @@ legend.handlelength: 1
 figure.figsize: 8, 8
 figure.dpi: 90
 figure.constrained_layout.use: True
+
+image.cmap: plasma
 
 # colors = ['#0271AE', '#DC2830', '#FFC438',  # blue, red, light orange
 #           '#343837',                        # gray

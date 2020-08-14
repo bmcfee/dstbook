@@ -49,5 +49,6 @@ This project would not have been possible without the tireless efforts of the op
 - [Jupyter](https://jupyter.org)
 - [Jupyter-Book](https://jupyterbook.org)
 - [Sphinx](https://www.sphinx-doc.org)
+- [Freesound](https://freesound.org/)
 
 [brm]: https://brianmcfee.net/
