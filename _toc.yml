@@ -69,6 +69,17 @@
     - file: content/ch08-stft/STFT
     - file: content/ch08-stft/Exercises
 
+- part: Part 3, Filtering
+  chapters:
+  - file: content/ch09-convtheorem/intro
+    expand_sections: False
+    sections:
+    - file: content/ch09-convtheorem/ConvolutionTheorem
+    - file: content/ch09-convtheorem/Filtering
+    - file: content/ch09-convtheorem/FilterDesign
+    - file: content/ch09-convtheorem/Phase
+    - file: content/ch09-convtheorem/Exercises
+
 - part: Appendix
   chapters:
   - file: content/appendix/Fundamentals
@@ -76,3 +87,7 @@
   - file: content/appendix/Complex
   - file: content/appendix/Trigonometry
   - file: content/appendix/Python
+
+- part: References
+  chapters:
+  - file: content/zzzbibliography

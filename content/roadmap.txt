@@ -56,6 +56,11 @@ preface
       - live code
     x outline
     
+    
+- LSI: fix stars and dots for linearity derivation
+- convolution: fix filter example code to match problem statement
+
+
 --- part 1
 
 1 signals and sound
@@ -185,12 +190,9 @@ preface
 --- part 3
 
 9 convolution theorem
-    - the convolution theorem
+    x the convolution theorem
         - corollary: the correlation theorem
-    - convolution properties
-    - DFT analysis
-    - low-pass, high-pass, band-pass filtering
-    - DFT processing, circular convolution
+    x low-pass, high-pass, band-pass filtering
     - phase and group delay
     - summary/history
     - exercises

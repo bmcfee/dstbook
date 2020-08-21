@@ -1,3 +1,4 @@
+(convolution)=
 # Convolution
 
 This chapter introduces the fundamental concepts behind *filtering* and **convolution**.
