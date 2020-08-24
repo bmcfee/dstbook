@@ -193,9 +193,9 @@ preface
     x the convolution theorem
         - corollary: the correlation theorem
     x low-pass, high-pass, band-pass filtering
-    - phase and group delay
-    - summary/history
-    - exercises
+    x phase and group delay
+    x summary/history
+    x exercises
 
 
 10 feedback filters
@@ -217,9 +217,7 @@ preface
     - generalize DFT -> ZT
     - delay theorem for ZT
     - transfer functions and "convolution theorem" for ZT
-    - frequency response and group delay
     - poles, zeros, and stability
-    - cascaded filters
     - common pitfalls
         - algebraic errors
         - off-by-one errors
@@ -234,9 +232,11 @@ preface
         - FMP
         - morgan, gold, ellis
         - CASSE
+        - DAFx
     - more in-depth DSP:
         - oppenheim and schaffer
         - stephan mallat / wavelets?
+        - JOS3
 
 --- appendix
 
