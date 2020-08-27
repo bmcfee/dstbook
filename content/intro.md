@@ -35,7 +35,7 @@ This has a few benefits over traditional texts:
 - Full color figures and animations are present from the beginning;
 - Audio examples can be embedded directly in the text;
 - Example code is included directly, and you can run it yourself;
-- It's freely available on the internet!
+- It's freely available on the Internet!
 
 ## Acknowledgements
 
@@ -50,5 +50,7 @@ This project would not have been possible without the tireless efforts of the op
 - [Jupyter-Book](https://jupyterbook.org)
 - [Sphinx](https://www.sphinx-doc.org)
 - [Freesound](https://freesound.org/)
+- [Soundfile](https://pysoundfile.readthedocs.io/en/latest/)
+- [libsndfile](http://www.mega-nerd.com/libsndfile/)
 
 [brm]: https://brianmcfee.net/

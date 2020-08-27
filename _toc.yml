@@ -79,14 +79,19 @@
     - file: content/ch09-convtheorem/FilterDesign
     - file: content/ch09-convtheorem/Phase
     - file: content/ch09-convtheorem/Exercises
+  - file: content/ch10-iir/intro
+    expand_sections: False
+    sections:
+    - file: content/ch10-iir/Feedback
+    - file: content/ch10-iir/UsingIIR
+    - file: content/ch10-iir/IIRFilters
+    - file: content/ch10-iir/Exercises
 
 - part: Appendix
   chapters:
   - file: content/appendix/Fundamentals
   - file: content/appendix/Algebra
   - file: content/appendix/Complex
-  - file: content/appendix/Trigonometry
-  - file: content/appendix/Python
 
 - part: References
   chapters:

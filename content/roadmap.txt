@@ -200,15 +200,15 @@ preface
 
 10 feedback filters
 
-    - linear feedback systems
-        - feed-forward and feed-back coefficients
-    - efficiency comparison
-    - infinite impulse response
-    - causal filters, non-linear phase response
-    - 0-delay filtering
-    - filter initialization
-    - examples
-    - summary/history
+    x infinite impulse response
+        x linear feedback systems
+        x feed-forward and feed-back coefficients
+        x causal filters
+    x using IIR filters
+        x non-linear phase response
+        x 0-delay filtering
+    x examples
+        x efficiency comparison
     - exercises
 
 11 the z-transform
@@ -218,6 +218,7 @@ preface
     - delay theorem for ZT
     - transfer functions and "convolution theorem" for ZT
     - poles, zeros, and stability
+    - SOS filters
     - common pitfalls
         - algebraic errors
         - off-by-one errors
