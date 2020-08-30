@@ -37,7 +37,35 @@ This has a few benefits over traditional texts:
 - Example code is included directly, and you can run it yourself;
 - It's freely available on the Internet!
 
-## Acknowledgements
+## Supplemental resources
+
+This book is meant to be fairly self-contained, but it certainly can't cover everything.
+Depending on your background, you may find yourself wanting more foundational material (e.g., on mathematics or programming), or more advanced coverage of certain topics.
+
+### Mathematics
+
+- [Khan Academy - Algebra](https://www.khanacademy.org/math/algebra-home) is a good resource if you want to brush up on basic algebra.
+- [3Blue1Brown](https://www.youtube.com/c/3blue1brown/featured) has several excellent videos on topics related to this material:
+    - [Understanding $e^{i \cdot \pi}$ in 3.14 minutes](https://www.youtube.com/watch?v=v0YEaeIClKY) 
+    - [A visual introduction to the Fourier transform](https://www.youtube.com/watch?v=spUNpyF58BY)
+
+### Programming
+
+- [PythonTutor](http://www.pythontutor.com/) is an excellent resource to learn the basics of program operation.
+- [NumPy for Matlab users](https://numpy.org/doc/stable/user/numpy-for-matlab-users.html) is helpful if you have prior experience with Matlab, and want some basic recipes to translate into Python.
+- The [Software Carpentry](https://software-carpentry.org/) organization has excellent tutorials for programming in Python:
+    - [Programming with Python](https://swcarpentry.github.io/python-novice-inflammation/)
+    - [Plotting and Programming in Python](https://swcarpentry.github.io/python-novice-gapminder/)
+
+### Further reading
+
+- [Mathematics of the Discrete Fourier Transform](https://ccrma.stanford.edu/~jos/mdft/) by Julius O. Smith III.
+- Understanding Digital Signal Processing (3rd ed.) by Richard Lyons {cite}`lyons2004understanding`.
+- Discrete-Time Signal Processing by Alan Oppenheim and Ronald Schafer {cite}`oppenheimdiscrete`.
+- [Fundamentals of Music Processing](https://www.audiolabs-erlangen.de/resources/MIR/FMP/C0/C0.html) by Meinard Müller {cite}`mueller_fundamentals_2015`.
+
+
+## Acknowledgments
 
 This interactive book was originally created by [Brian McFee][brm] to accompany the Fundamentals of Digital Signals Theory course at New York
 University.

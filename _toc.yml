@@ -90,7 +90,6 @@
 - part: Appendix
   chapters:
   - file: content/appendix/Fundamentals
-  - file: content/appendix/Algebra
   - file: content/appendix/Complex
 
 - part: References
