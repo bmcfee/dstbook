@@ -86,6 +86,14 @@
     - file: content/ch10-iir/UsingIIR
     - file: content/ch10-iir/IIRFilters
     - file: content/ch10-iir/Exercises
+  - file: content/ch11-ztransform/intro
+    expand_sections: False
+    sections:
+    - file: content/ch11-ztransform/ZT
+    - file: content/ch11-ztransform/zT-Properties
+    - file: content/ch11-ztransform/Transfer
+    - file: content/ch11-ztransform/PoleZero
+    - file: content/ch11-ztransform/Exercises
 
 - part: Appendix
   chapters:
