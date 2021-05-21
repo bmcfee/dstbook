@@ -15,8 +15,13 @@ font.sans-serif: Helvetica Neue
 font.size: 14
 
 lines.linewidth: 3
-lines.markersize: 10
+lines.markersize: 5
 lines.markeredgewidth: 0
+lines.solid_joinstyle: miter
+lines.solid_capstyle: butt
+lines.dash_joinstyle: miter
+lines.dash_capstyle: butt
+
 grid.color: 0.0
 grid.linestyle: -
 grid.alpha: 0.2

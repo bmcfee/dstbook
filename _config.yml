@@ -44,11 +44,11 @@ html:
 #######################################################################################
 # Launch button settings
 launch_buttons:
-  notebook_interface        : "classic"  # The interface interactive links will activate ["classic", "jupyterlab"]
+  notebook_interface        : "jupyterlab"  # The interface interactive links will activate ["classic", "jupyterlab"]
   binderhub_url             : ""  # "https://mybinder.org"  # The URL of the BinderHub (e.g., https://mybinder.org)
   jupyterhub_url            : ""  # The URL of the JupyterHub (e.g., https://datahub.berkeley.edu)
   thebelab                  : false  # Add a thebelab button to pages (requires the repository to run on Binder)
-  colab_url                 : ""  # "https://colab.research.google.com"
+  colab_url                 : "https://colab.research.google.com"
 
 repository:
   url                       : "https://github.com/bmcfee/dstbook"  # The URL to your book's repository
@@ -57,6 +57,6 @@ repository:
 
 #######################################################################################
 # Advanced and power-user settings
-sphinx:
-  extra_extensions          : ""  # A list of extra extensions to load by Sphinx.
-  config                    : ""  # key-value pairs to directly over-ride the Sphinx configuration
+# sphinx:
+    #  extra_extensions          : ""  # A list of extra extensions to load by Sphinx.
+  #  config                    : ""  # key-value pairs to directly over-ride the Sphinx configuration

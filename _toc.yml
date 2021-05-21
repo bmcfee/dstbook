@@ -4,7 +4,6 @@
 - part: Part 1, Signals and systems
   chapters:
   - file: content/ch01-signals/Intro
-    expand_sections: False
     sections:
     - file: content/ch01-signals/Preliminaries
     - file: content/ch01-signals/Waves
@@ -12,7 +11,6 @@
     - file: content/ch01-signals/Acoustics
     - file: content/ch01-signals/Exercises
   - file: content/ch02-sampling/intro
-    expand_sections: False
     sections:
     - file: content/ch02-sampling/Sampling
     - file: content/ch02-sampling/Aliasing
@@ -20,7 +18,6 @@
     - file: content/ch02-sampling/Quantization
     - file: content/ch02-sampling/Exercises
   - file: content/ch03-convolution/intro
-    expand_sections: False
     sections:
     - file: content/ch03-convolution/Building
     - file: content/ch03-convolution/Convolution
@@ -33,7 +30,6 @@
 - part: Part 2, The frequency domain
   chapters:
   - file: content/ch04-fourier/intro
-    expand_sections: False
     sections:
     - file: content/ch04-fourier/Similarity
     - file: content/ch04-fourier/Cosine
@@ -44,7 +40,6 @@
     - file: content/ch04-fourier/SummingSinusoids
     - file: content/ch04-fourier/Exercises
   - file: content/ch05-dft-properties/intro
-    expand_sections: False
     sections:
     - file: content/ch05-dft-properties/Linearity
     - file: content/ch05-dft-properties/Shifting
@@ -52,18 +47,15 @@
     - file: content/ch05-dft-properties/Leakage
     - file: content/ch05-dft-properties/Exercises
   - file: content/ch06-inverse-dft/intro
-    expand_sections: False
     sections:
     - file: content/ch06-inverse-dft/InverseDFT
     - file: content/ch06-inverse-dft/Exercises
   - file: content/ch07-fft/intro
-    expand_sections: False
     sections:
     - file: content/ch07-fft/DFT-Analysis
     - file: content/ch07-fft/FFT
     - file: content/ch07-fft/Exercises
   - file: content/ch08-stft/intro
-    expand_sections: False
     sections:
     - file: content/ch08-stft/Framing
     - file: content/ch08-stft/STFT
@@ -72,7 +64,6 @@
 - part: Part 3, Filtering
   chapters:
   - file: content/ch09-convtheorem/intro
-    expand_sections: False
     sections:
     - file: content/ch09-convtheorem/ConvolutionTheorem
     - file: content/ch09-convtheorem/Filtering
@@ -80,14 +71,12 @@
     - file: content/ch09-convtheorem/Phase
     - file: content/ch09-convtheorem/Exercises
   - file: content/ch10-iir/intro
-    expand_sections: False
     sections:
     - file: content/ch10-iir/Feedback
     - file: content/ch10-iir/UsingIIR
     - file: content/ch10-iir/IIRFilters
     - file: content/ch10-iir/Exercises
   - file: content/ch11-ztransform/intro
-    expand_sections: False
     sections:
     - file: content/ch11-ztransform/ZT
     - file: content/ch11-ztransform/zT-Properties
