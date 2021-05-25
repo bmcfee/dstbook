@@ -1,5 +1,43 @@
 TODOs
+2021 revisions
 
+x update citation styles
+
+- define hann window 2.2.4
+- psychoacoustics, JND and quantization, 1.2.4
+
+- animate FFT
+- split fft section for algorithm and analysis
+- inverse fourier, approximations, synthesis
+- expand dual convolution theorem
+- improve convolution example
+- simplify figure 9.6
+- pz plots shade the lower half of the plane
+
+- standardize color macros
+- color audit for final chapters
+- fix plot styles for sampled signals
+- update logo and aesthetics generally
+
+- latex conversions: https://github.com/executablebooks/jupyterbook-latex
+
+- meinard's comments
+- frank's comments
+- ernesto's comments
+
+- complex appendix -> new chapter, split apart
+- conclusion chapter?
+- python appendix
+- appendix for proofs?
+
+- run on colab
+
+x update copyright
+- update acknowledgments
+
+
+---
+2020
 x acknowledgements
   x jupyterbook team
   x numpy, scipy, matplotlib devs
@@ -280,6 +318,7 @@ appendix (background material)
         - variables
         - loops
         - functions
+        - slices
         - numpy
         - plotting
         - environments

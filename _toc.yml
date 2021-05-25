@@ -1,7 +1,7 @@
 - file: content/intro
   numbered: True
 
-- part: Part 1, Signals and systems
+- part: 
   chapters:
   - file: content/ch01-signals/Intro
     sections:
@@ -26,9 +26,6 @@
     - file: content/ch03-convolution/Properties
     - file: content/ch03-convolution/LSI
     - file: content/ch03-convolution/Exercises
-  
-- part: Part 2, The frequency domain
-  chapters:
   - file: content/ch04-fourier/intro
     sections:
     - file: content/ch04-fourier/Similarity
@@ -60,9 +57,6 @@
     - file: content/ch08-stft/Framing
     - file: content/ch08-stft/STFT
     - file: content/ch08-stft/Exercises
-
-- part: Part 3, Filtering
-  chapters:
   - file: content/ch09-convtheorem/intro
     sections:
     - file: content/ch09-convtheorem/ConvolutionTheorem
@@ -84,11 +78,12 @@
     - file: content/ch11-ztransform/PoleZero
     - file: content/ch11-ztransform/Exercises
 
+- part: 
+  numbered: False
+  chapters:
+  - file: content/references
+
 - part: Appendix
   chapters:
   - file: content/appendix/Fundamentals
   - file: content/appendix/Complex
-
-- part: References
-  chapters:
-  - file: content/zzzbibliography
