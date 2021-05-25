@@ -11,8 +11,19 @@ x update citation styles
 - inverse fourier, approximations, synthesis
 - expand dual convolution theorem
 - improve convolution example
+
+- DFT properties
+  - linearity: animated mixing
+  - animation for the shifting theorem
+
 - simplify figure 9.6
 - pz plots shade the lower half of the plane
+- redo figure 8.1 for coherent colors
+- redo figure 9.2
+- combine figure 9.6
+- split figure 10.2
+
+- iir systems: b for before (system), a for after (system)
 
 - standardize color macros
 - color audit for final chapters

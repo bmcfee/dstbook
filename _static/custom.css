@@ -38,6 +38,9 @@ div.section {
     text-justify: inter-word;
 }
 
+div.site-navigation {
+    background-color: #fcfcf8;
+}
 p.caption {
     text-align: justify;
     text-justify: inter-word;
