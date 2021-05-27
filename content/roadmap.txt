@@ -7,7 +7,7 @@ x update citation styles
 - psychoacoustics, JND and quantization, 1.2.4
 
 - animate FFT
-- split fft section for algorithm and analysis
+x [NOT DOING] split fft section for algorithm and analysis
 - inverse fourier, approximations, synthesis
 - expand dual convolution theorem
 - improve convolution example
@@ -29,6 +29,11 @@ x update citation styles
 - color audit for final chapters
 - fix plot styles for sampled signals
 - update logo and aesthetics generally
+- legend frames?
+- do something about yellow
+
+- landing page
+- figure on every chapter intro
 
 - latex conversions: https://github.com/executablebooks/jupyterbook-latex
 
