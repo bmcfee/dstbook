@@ -44,6 +44,7 @@ x frank's comments
 - complex appendix -> new chapter, split apart
 - conclusion chapter?
 - python appendix
+    - vectorization --> here
 - appendix for proofs?
 
 - run on colab
