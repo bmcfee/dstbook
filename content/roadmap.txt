@@ -33,7 +33,7 @@ x update citation styles
 - latex conversions: https://github.com/executablebooks/jupyterbook-latex
 
 - meinard's comments
-- frank's comments
+x frank's comments
 - ernesto's comments
 
 - complex appendix -> new chapter, split apart
