@@ -7,4 +7,4 @@ Implicitly, this is assuming that frequency content is somehow "stationary" or u
 While this may be a reasonable assumption for short signals that loop indefinitely, it does not apply to reasonably long signals, whose frequency content may be expected to change over time. (For instance, music!)
 
 In this chapter, we will see how to relax the assumption of stationarity, providing a **time-frequency** representation of signals that analyzes frequency content only over short intervals.
-This so-called *short-time Fourier transform* (STFT) is a fundamental tool in analyzing dynamic signals.
+This so-called *Short-Time Fourier transform* (STFT) is a fundamental tool in analyzing dynamic signals.
