@@ -26,6 +26,13 @@
     - file: content/ch03-convolution/Properties
     - file: content/ch03-convolution/LSI
     - file: content/ch03-convolution/Exercises
+  - file: content/ch04-complex/Intro
+    sections:
+    - file: content/ch04-complex/Definition
+    - file: content/ch04-complex/Basic-Operations
+    - file: content/ch04-complex/Exponentials
+    - file: content/ch04-complex/Multiplication-and-division
+    - file: content/ch04-complex/Powers-and-waves
   - file: content/ch04-fourier/intro
     sections:
     - file: content/ch04-fourier/Similarity
@@ -86,4 +93,4 @@
 - part: Appendix
   chapters:
   - file: content/appendix/Fundamentals
-  - file: content/appendix/Complex
+    #  - file: content/appendix/Complex

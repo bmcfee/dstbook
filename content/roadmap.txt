@@ -37,11 +37,11 @@ x [NOT DOING] split fft section for algorithm and analysis
 
 - latex conversions: https://github.com/executablebooks/jupyterbook-latex
 
-- meinard's comments
+x meinard's comments
 x frank's comments
 - ernesto's comments
 
-- complex appendix -> new chapter, split apart
+x complex appendix -> new chapter, split apart
 - conclusion chapter?
 - python appendix
     - vectorization --> here
