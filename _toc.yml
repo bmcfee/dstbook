@@ -33,57 +33,57 @@
     - file: content/ch04-complex/Exponentials
     - file: content/ch04-complex/Multiplication-and-division
     - file: content/ch04-complex/Powers-and-waves
-  - file: content/ch04-fourier/intro
+  - file: content/ch05-fourier/intro
     sections:
-    - file: content/ch04-fourier/Similarity
-    - file: content/ch04-fourier/Cosine
-    - file: content/ch04-fourier/AnalysisFrequencies
-    - file: content/ch04-fourier/Phase
-    - file: content/ch04-fourier/DFT
-    - file: content/ch04-fourier/Examples
-    - file: content/ch04-fourier/SummingSinusoids
-    - file: content/ch04-fourier/Exercises
-  - file: content/ch05-dft-properties/intro
+    - file: content/ch05-fourier/Similarity
+    - file: content/ch05-fourier/Cosine
+    - file: content/ch05-fourier/AnalysisFrequencies
+    - file: content/ch05-fourier/Phase
+    - file: content/ch05-fourier/DFT
+    - file: content/ch05-fourier/Examples
+    - file: content/ch05-fourier/SummingSinusoids
+    - file: content/ch05-fourier/Exercises
+  - file: content/ch06-dft-properties/intro
     sections:
-    - file: content/ch05-dft-properties/Linearity
-    - file: content/ch05-dft-properties/Shifting
-    - file: content/ch05-dft-properties/Conjugate-Symmetry
-    - file: content/ch05-dft-properties/Leakage
-    - file: content/ch05-dft-properties/Exercises
-  - file: content/ch06-inverse-dft/intro
+    - file: content/ch06-dft-properties/Linearity
+    - file: content/ch06-dft-properties/Shifting
+    - file: content/ch06-dft-properties/Conjugate-Symmetry
+    - file: content/ch06-dft-properties/Leakage
+    - file: content/ch06-dft-properties/Exercises
+  - file: content/ch07-inverse-dft/intro
     sections:
-    - file: content/ch06-inverse-dft/InverseDFT
-    - file: content/ch06-inverse-dft/Exercises
-  - file: content/ch07-fft/intro
+    - file: content/ch07-inverse-dft/InverseDFT
+    - file: content/ch07-inverse-dft/Exercises
+  - file: content/ch08-fft/intro
     sections:
-    - file: content/ch07-fft/DFT-Analysis
-    - file: content/ch07-fft/FFT
-    - file: content/ch07-fft/Exercises
-  - file: content/ch08-stft/intro
+    - file: content/ch08-fft/DFT-Analysis
+    - file: content/ch08-fft/FFT
+    - file: content/ch08-fft/Exercises
+  - file: content/ch09-stft/intro
     sections:
-    - file: content/ch08-stft/Framing
-    - file: content/ch08-stft/STFT
-    - file: content/ch08-stft/Exercises
-  - file: content/ch09-convtheorem/intro
+    - file: content/ch09-stft/Framing
+    - file: content/ch09-stft/STFT
+    - file: content/ch09-stft/Exercises
+  - file: content/ch10-convtheorem/intro
     sections:
-    - file: content/ch09-convtheorem/ConvolutionTheorem
-    - file: content/ch09-convtheorem/Filtering
-    - file: content/ch09-convtheorem/FilterDesign
-    - file: content/ch09-convtheorem/Phase
-    - file: content/ch09-convtheorem/Exercises
-  - file: content/ch10-iir/intro
+    - file: content/ch10-convtheorem/ConvolutionTheorem
+    - file: content/ch10-convtheorem/Filtering
+    - file: content/ch10-convtheorem/FilterDesign
+    - file: content/ch10-convtheorem/Phase
+    - file: content/ch10-convtheorem/Exercises
+  - file: content/ch11-iir/intro
     sections:
-    - file: content/ch10-iir/Feedback
-    - file: content/ch10-iir/UsingIIR
-    - file: content/ch10-iir/IIRFilters
-    - file: content/ch10-iir/Exercises
-  - file: content/ch11-ztransform/intro
+    - file: content/ch11-iir/Feedback
+    - file: content/ch11-iir/UsingIIR
+    - file: content/ch11-iir/IIRFilters
+    - file: content/ch11-iir/Exercises
+  - file: content/ch12-ztransform/intro
     sections:
-    - file: content/ch11-ztransform/ZT
-    - file: content/ch11-ztransform/zT-Properties
-    - file: content/ch11-ztransform/Transfer
-    - file: content/ch11-ztransform/PoleZero
-    - file: content/ch11-ztransform/Exercises
+    - file: content/ch12-ztransform/ZT
+    - file: content/ch12-ztransform/zT-Properties
+    - file: content/ch12-ztransform/Transfer
+    - file: content/ch12-ztransform/PoleZero
+    - file: content/ch12-ztransform/Exercises
 
 - part: 
   numbered: False
