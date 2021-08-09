@@ -3,8 +3,9 @@ TODOs
 
 x update citation styles
 
-- define hann window 2.2.4
 - psychoacoustics, JND and quantization, 1.2.4
+- define hann window 2.2.4
+
 
 - animate FFT
 x [NOT DOING] split fft section for algorithm and analysis
@@ -18,7 +19,7 @@ x [NOT DOING] split fft section for algorithm and analysis
 
 - simplify figure 9.6
 - pz plots shade the lower half of the plane
-- redo figure 8.1 for coherent colors
+x redo figure 8.1 for coherent colors
 - redo figure 9.2
 - combine figure 9.6
 - split figure 10.2

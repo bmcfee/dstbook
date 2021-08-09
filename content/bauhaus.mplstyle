@@ -31,8 +31,8 @@ animation.html: jshtml
 animation.frame_format: png
 savefig.transparent: True
 
-legend.frameon: True
-legend.framealpha: 0.95
+legend.frameon: False
+#legend.framealpha: 0.95
 legend.fontsize: 14
 legend.handlelength: 1
 # legend.labelcolor: markerfacecolor

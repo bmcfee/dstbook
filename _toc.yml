@@ -1,7 +1,8 @@
-- file: content/intro
-  numbered: True
-
-- part: 
+format: jb-book
+root: content/intro
+parts:
+- caption: Time-domain signals
+  numbered: true
   chapters:
   - file: content/ch01-signals/Intro
     sections:
@@ -26,6 +27,9 @@
     - file: content/ch03-convolution/Properties
     - file: content/ch03-convolution/LSI
     - file: content/ch03-convolution/Exercises
+- caption: The frequency domain
+  numbered: true
+  chapters:
   - file: content/ch04-complex/Intro
     sections:
     - file: content/ch04-complex/Definition
@@ -64,6 +68,9 @@
     - file: content/ch09-stft/Framing
     - file: content/ch09-stft/STFT
     - file: content/ch09-stft/Exercises
+- caption: Filtering
+  numbered: true
+  chapters:
   - file: content/ch10-convtheorem/intro
     sections:
     - file: content/ch10-convtheorem/ConvolutionTheorem
@@ -84,13 +91,10 @@
     - file: content/ch12-ztransform/Transfer
     - file: content/ch12-ztransform/PoleZero
     - file: content/ch12-ztransform/Exercises
-
-- part: 
-  numbered: False
-  chapters:
-  - file: content/references
-
-- part: Appendix
+- caption: Appendix
+  numbered: true
   chapters:
   - file: content/appendix/Fundamentals
-    #  - file: content/appendix/Complex
+- chapters:
+  - file: content/references
+
