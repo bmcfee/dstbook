@@ -94,7 +94,12 @@ parts:
 - caption: Appendix
   numbered: true
   chapters:
-  - file: content/appendix/Fundamentals
+  - file: content/appendixA/Fundamentals
+    sections:
+    - file: content/appendixA/Sets
+    - file: content/appendixA/Sequences
+    - file: content/appendixA/ModularArithmetic
+    - file: content/appendixA/Exponents
 - chapters:
   - file: content/references
 

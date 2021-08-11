@@ -1,5 +1,10 @@
 # Digital sampling
 
+```{image} ../images/chapter02.svg
+:width: 75%
+:align: center
+```
+
 In the previous chapter, signals were assumed to exist in continuous time.
 A signal was represented as $x(t)$, where $t$ could be any continuous value representing time: $0, 3, -1/12, \sqrt{2}, ...$ are all valid values for $t$.
 
