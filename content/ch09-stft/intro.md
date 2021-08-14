@@ -1,5 +1,9 @@
 (stft)=
 # Time-frequency representation
+```{image} ../images/chapter09.svg
+:width: 75%
+:align: center
+```
 
 The Fourier transform, as presented in earlier chapters, provides a view of signals in terms of different frequencies.
 The comparison between the input signal and the Fourier basis involves a sample-wise product and sum over *all samples* to produce a single DFT component $X[m]$.

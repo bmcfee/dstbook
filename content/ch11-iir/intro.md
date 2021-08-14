@@ -1,5 +1,9 @@
 (iir-filters)=
 # Infinite impulse response filters
+```{image} ../images/chapter11.svg
+:width: 75%
+:align: center
+```
 
 In the previous chapter, we saw how to use convolution to implement finite impulse response (FIR) filters, such as low-pass filters.
 FIR filters have many nice properties:

@@ -1,5 +1,9 @@
 (convolution)=
 # Convolution
+```{image} ../images/chapter03.svg
+:width: 75%
+:align: center
+```
 
 This chapter introduces the fundamental concepts behind *filtering* and **convolution**.
 We'll stick to the basics in this chapter, and leave the more detailed analysis for later chapters.

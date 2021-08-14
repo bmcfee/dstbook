@@ -1,5 +1,10 @@
 # The Discrete Fourier Transform
 
+```{image} ../images/chapter05.svg
+:width: 75%
+:align: center
+```
+
 This chapter introduces the frequency domain representation of signals and the Discrete Fourier Transform.
 At a high level, the Fourier transform is just a different way of representing a signal: instead of using the sequence of sample values, we use combinations of sinusoids.
 

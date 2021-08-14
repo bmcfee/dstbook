@@ -1,4 +1,8 @@
 # Properties of the DFT
+```{image} ../images/chapter06.svg
+:width: 75%
+:align: center
+```
 
 In this chapter, we'll go more in depth with the DFT to understand its fundamental properties.
 Specifically, we'll cover the following four topics:

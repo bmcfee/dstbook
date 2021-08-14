@@ -37,6 +37,7 @@ parts:
     - file: content/ch04-complex/Exponentials
     - file: content/ch04-complex/Multiplication-and-division
     - file: content/ch04-complex/Powers-and-waves
+    - file: content/ch04-complex/Exercises
   - file: content/ch05-fourier/intro
     sections:
     - file: content/ch05-fourier/Similarity

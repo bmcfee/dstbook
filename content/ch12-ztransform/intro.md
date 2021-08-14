@@ -1,6 +1,11 @@
 (ztransform)=
 # Analyzing IIR filters
 
+```{image} ../images/chapter12.svg
+:width: 75%
+:align: center
+```
+
 The previous chapter introduced infinite impulse response (IIR) filters, which are defined recursively as feedback loops.
 These filters can be both more powerful and more efficient than FIR (convolutional) filters.
 However, these benefits come with a cost: IIR filters cannot be analyzed directly by the discrete Fourier transform.

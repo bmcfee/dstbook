@@ -3,6 +3,8 @@ TODOs
 
 x update citation styles
 
+x exercises for complex chapter
+
 - psychoacoustics, JND and quantization, 1.2.4
 x define hann window 2.2.4
 
@@ -18,11 +20,13 @@ x [NOT DOING] split fft section for algorithm and analysis
   - animation for the shifting theorem
 
 ? simplify figure 9.6
-- pz plots shade the lower half of the plane
+x pz plots shade the lower half of the plane
 x redo figure 8.1 for coherent colors
 x redo figure 9.2
 ? combine figure 9.6
-- split figure 10.2
+? split figure 10.2
+x example 10.4.1.2 has a bug
+x eq 12.1 has a bug in the graf above
 
 x iir systems: b for before (system), a for after (system)
 
@@ -31,7 +35,7 @@ x iir systems: b for before (system), a for after (system)
 - color audit for final chapters
 - fix plot styles for sampled signals
 - update logo and aesthetics generally
-- legend frames?
+x legend frames?
 - do something about yellow
 
 - landing page
@@ -43,12 +47,21 @@ x iir systems: b for before (system), a for after (system)
 x meinard's comments
 x frank's comments
 - ernesto's comments
+    - initial thoughts:
+        x move complex appendix to ch1 of part 3?
+        o move proofs (eg geometric series) to appendix?
+        o expand appendix for python, geometry?
+
+    - ernesto:
+        - expand inverse / additive synthesis section
+        x "frame" vs "buffer"
+        x "frequency bin", "frequency band" vs "analysis frequencies"
 
 x complex appendix -> new chapter, split apart
 - conclusion chapter?
-- python appendix
+o python appendix
     - vectorization --> here
-- appendix for proofs?
+o appendix for proofs?
 
 - run on colab
 
@@ -339,6 +352,6 @@ appendix (background material)
         - loops
         - functions
         - slices
-        - numpy
-        - plotting
-        - environments
+        - numpy, vectors
+        - plotting?
+        - environments?
