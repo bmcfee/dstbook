@@ -57,7 +57,9 @@ parts:
     - file: content/ch06-dft-properties/Exercises
   - file: content/ch07-inverse-dft/intro
     sections:
+    - file: content/ch07-inverse-dft/Sinusoid
     - file: content/ch07-inverse-dft/InverseDFT
+    - file: content/ch07-inverse-dft/Synthesis
     - file: content/ch07-inverse-dft/Exercises
   - file: content/ch08-fft/intro
     sections:

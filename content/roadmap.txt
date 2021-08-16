@@ -10,10 +10,10 @@ x define hann window 2.2.4
 
 
 - animate FFT
-x [NOT DOING] split fft section for algorithm and analysis
-- inverse fourier, approximations, synthesis
+o [NOT DOING] split fft section for algorithm and analysis
+x inverse fourier, approximations, synthesis
 ? expand dual convolution theorem
-- improve convolution example
+o improve convolution example
 
 - DFT properties
   - linearity: animated mixing
@@ -47,15 +47,54 @@ x legend frames?
 x meinard's comments
 x frank's comments
 - ernesto's comments
-    - initial thoughts:
+    x initial thoughts:
         x move complex appendix to ch1 of part 3?
         o move proofs (eg geometric series) to appendix?
         o expand appendix for python, geometry?
-
-    - ernesto:
-        - expand inverse / additive synthesis section
-        x "frame" vs "buffer"
-        x "frequency bin", "frequency band" vs "analysis frequencies"
+    - expand inverse / additive synthesis section
+    x "frame" vs "buffer"
+    x "frequency bin", "frequency band" vs "analysis frequencies"
+- student feedback
+    - chapter 1:
+        - decibels, logs
+        - sin vs cosine and standard form
+        - octaves: always doubling?
+    - chapter 2:
+        - vectorization
+        - negative frequencies
+        - dynamic range, jnd
+        - quantization
+    - chapter 3:
+        - modes (maybe relate to trails)
+        - LSI
+        - programming is outpacing the lab section by now
+        - notation: capital K
+    - chapter 4
+        - exponentials
+        - why complex numbers?
+    - chapter 5:
+        - inputs and outputs of the DFT
+        - a lot of people seem to think magnitude = real part
+    - chapter 6:
+        - shifting theorem, visual
+        - leakage and windowing
+    x chapter 7:
+        x animate the inverse dft
+        x examples
+    - chapter 8:
+        - ///
+    - chapter 9:
+        - ref to inverse stft, overlap
+    - chapter 10:
+        - group delay
+        - order of the filter
+    - chapter 11:
+        - iir vs fir
+    - chapter 12:
+        - stability analysis :(
+        - transfer functions
+        - -K+1 should be -(K-1)
+        
 
 x complex appendix -> new chapter, split apart
 - conclusion chapter?
