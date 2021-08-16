@@ -46,12 +46,12 @@ x legend frames?
 
 x meinard's comments
 x frank's comments
-- ernesto's comments
+x ernesto's comments
     x initial thoughts:
         x move complex appendix to ch1 of part 3?
         o move proofs (eg geometric series) to appendix?
         o expand appendix for python, geometry?
-    - expand inverse / additive synthesis section
+    x expand inverse / additive synthesis section
     x "frame" vs "buffer"
     x "frequency bin", "frequency band" vs "analysis frequencies"
 - student feedback
@@ -67,8 +67,8 @@ x frank's comments
     - chapter 3:
         - modes (maybe relate to trails)
         - LSI
-        - programming is outpacing the lab section by now
         - notation: capital K
+        - programming is outpacing the lab section by now
     - chapter 4
         - exponentials
         - why complex numbers?
@@ -76,8 +76,8 @@ x frank's comments
         - inputs and outputs of the DFT
         - a lot of people seem to think magnitude = real part
     - chapter 6:
-        - shifting theorem, visual
-        - leakage and windowing
+        x shifting theorem, visual
+        x leakage and windowing
     x chapter 7:
         x animate the inverse dft
         x examples
@@ -85,9 +85,9 @@ x frank's comments
         - ///
     - chapter 9:
         - ref to inverse stft, overlap
-    - chapter 10:
-        - group delay
-        - order of the filter
+    x chapter 10:
+        x group delay
+        x order of the filter
     - chapter 11:
         - iir vs fir
     - chapter 12:
