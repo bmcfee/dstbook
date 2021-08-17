@@ -17,7 +17,7 @@ o improve convolution example
 
 - DFT properties
   - linearity: animated mixing
-  - animation for the shifting theorem
+  x animation for the shifting theorem
 
 ? simplify figure 9.6
 x pz plots shade the lower half of the plane
@@ -55,27 +55,27 @@ x ernesto's comments
     x "frame" vs "buffer"
     x "frequency bin", "frequency band" vs "analysis frequencies"
 - student feedback
-    - chapter 1:
-        - decibels, logs
-        - sin vs cosine and standard form
-        - octaves: always doubling?
-    - chapter 2:
-        - vectorization
-        - negative frequencies
-        - dynamic range, jnd
-        - quantization
-    - chapter 3:
-        - modes (maybe relate to trails)
-        - LSI
-        - notation: capital K
-        - programming is outpacing the lab section by now
-    - chapter 4
-        - exponentials
-        - why complex numbers?
-    - chapter 5:
-        - inputs and outputs of the DFT
-        - a lot of people seem to think magnitude = real part
-    - chapter 6:
+    x chapter 1:
+        x decibels, logs
+        x sin vs cosine and standard form
+        x octaves: always doubling?
+    x chapter 2:
+        x vectorization
+        x negative frequencies
+        o dynamic range, jnd
+        x quantization
+    x chapter 3:
+        x modes (maybe relate to trails)
+        x LSI
+        x notation: capital K
+        o programming is outpacing the lab section by now
+    x chapter 4
+        x exponentials
+        x why complex numbers?
+    x chapter 5:
+        x inputs and outputs of the DFT
+        x a lot of people seem to think magnitude = real part
+    x chapter 6:
         x shifting theorem, visual
         x leakage and windowing
     x chapter 7:
@@ -88,12 +88,12 @@ x ernesto's comments
     x chapter 10:
         x group delay
         x order of the filter
-    - chapter 11:
-        - iir vs fir
+    x chapter 11:
+        x iir vs fir
     - chapter 12:
         - stability analysis :(
         - transfer functions
-        - -K+1 should be -(K-1)
+        x -K+1 should be -(K-1)
         
 
 x complex appendix -> new chapter, split apart
@@ -143,7 +143,7 @@ x sampling
   
 - DFT properties
   - linearity: animated mixing
-  - animation for the shifting theorem
+  x animation for the shifting theorem
   - figure out self-loops on the conjugate-symmetry plots  
   - colorize the derivations
 
