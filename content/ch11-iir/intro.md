@@ -3,6 +3,7 @@
 ```{image} ../images/chapter11.svg
 :width: 75%
 :align: center
+:alt: an impulse and the result of applying an IIR low-pass filter
 ```
 
 In the previous chapter, we saw how to use convolution to implement finite impulse response (FIR) filters, such as low-pass filters.

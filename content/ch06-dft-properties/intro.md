@@ -2,6 +2,7 @@
 ```{image} ../images/chapter06.svg
 :width: 75%
 :align: center
+:alt: the real and imaginary parts of a discrete Fourier spectrum
 ```
 
 In this chapter, we'll go more in depth with the DFT to understand its fundamental properties.

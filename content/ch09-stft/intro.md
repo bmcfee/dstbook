@@ -3,6 +3,7 @@
 ```{image} ../images/chapter09.svg
 :width: 75%
 :align: center
+:alt: the magnitude spectrogram of a slide whistle
 ```
 
 The Fourier transform, as presented in earlier chapters, provides a view of signals in terms of different frequencies.

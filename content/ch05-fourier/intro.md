@@ -3,6 +3,7 @@
 ```{image} ../images/chapter05.svg
 :width: 75%
 :align: center
+:alt: a time-domain signal and its discrete Fourier transform magnitudes
 ```
 
 This chapter introduces the frequency domain representation of signals and the Discrete Fourier Transform.

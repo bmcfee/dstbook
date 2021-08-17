@@ -4,6 +4,7 @@
 ```{image} ../images/chapter12.svg
 :width: 75%
 :align: center
+:alt: a pole-zero plot of a low-pass filter
 ```
 
 The previous chapter introduced infinite impulse response (IIR) filters, which are defined recursively as feedback loops.

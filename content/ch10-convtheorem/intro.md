@@ -4,6 +4,7 @@
 ```{image} ../images/chapter10.svg
 :width: 50%
 :align: center
+:alt: a filter's impulse response and frequency response
 ```
 
 The third part of this book focuses primarily on **filtering**: how do we manipulate signals, and how do we reason about these manipulations?

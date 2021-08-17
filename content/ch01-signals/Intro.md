@@ -3,6 +3,7 @@
 ```{image} ../images/chapter01.svg
 :width: 75%
 :align: center
+:alt: three waves
 ```
 
 This chapter introduces the concept of signals as mathematical objects.

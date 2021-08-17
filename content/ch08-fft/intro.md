@@ -3,6 +3,7 @@
 ```{image} ../images/chapter08.svg
 :width: 75%
 :align: center
+:alt: a wave being downsampled into its even and odd sub-sequences
 ```
 
 In this brief chapter, we'll see one of the most common methods for accelerating the computation of the Discrete Fourier Transform (DFT).

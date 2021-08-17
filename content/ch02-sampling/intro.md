@@ -3,6 +3,7 @@
 ```{image} ../images/chapter02.svg
 :width: 75%
 :align: center
+:alt: a continuous wave fading into discrete samples
 ```
 
 In the previous chapter, signals were assumed to exist in continuous time.

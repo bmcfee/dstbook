@@ -39,10 +39,10 @@ x legend frames?
 - do something about yellow
 
 - landing page
-- figure on every chapter intro
-- alt text on all figures (if possible?)
+x figure on every chapter intro
+x alt text on all figures (if possible?)
 
-- latex conversions: https://github.com/executablebooks/jupyterbook-latex
+x latex conversions: https://github.com/executablebooks/jupyterbook-latex
 
 x meinard's comments
 x frank's comments
