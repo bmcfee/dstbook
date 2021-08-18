@@ -1,5 +1,25 @@
-\definecolor{blue}{rgb}{0.002,0.443,0.682}
-\definecolor{red}{rgb}{0.859,0.157,0.188}
+\definecolor{blue}{rgb}{0.008, 0.443, 0.682}
+\definecolor{red}{rgb}{0.863, 0.157, 0.188}
+\definecolor{orange}{rgb}{1.000, 0.769, 0.220}
+\definecolor{purple}{rgb}{0.204, 0.220, 0.216}
+\definecolor{green}{rgb}{0.431, 0.231, 0.529}
+\definecolor{dkorange}{rgb}{0.000, 0.490, 0.302}
+\definecolor{cyan}{rgb}{0.980, 0.565, 0.176}
+\definecolor{magenta}{rgb}{0.000, 0.584, 0.718}
+\definecolor{yellow}{rgb}{0.796, 0.047, 0.482}
+\definecolor{peagreen}{rgb}{0.969, 0.894, 0.235}
+\definecolor{darkblue}{rgb}{0.533, 0.725, 0.231}
+\definecolor{darkorange}{rgb}{0.267, 0.310, 0.584}
 
 \newcommand{\blue}[1]{\color{blue} #1}
 \newcommand{\red}[1]{\color{red} #1}
+\newcommand{\orange}[1]{\color{orange} #1}
+\newcommand{\purple}[1]{\color{purple} #1}
+\newcommand{\green}[1]{\color{green} #1}
+\newcommand{\dkorange}[1]{\color{dkorange} #1}
+\newcommand{\cyan}[1]{\color{cyan} #1}
+\newcommand{\magenta}[1]{\color{magenta} #1}
+\newcommand{\yellow}[1]{\color{yellow} #1}
+\newcommand{\peagreen}[1]{\color{peagreen} #1}
+\newcommand{\darkblue}[1]{\color{darkblue} #1}
+\newcommand{\darkorange}[1]{\color{darkorange} #1}
