@@ -122,6 +122,8 @@ sphinx:
 
     latex_elements:
       extrapackages: \usepackage{cancel,color}
+      preamble: \input{colormap.tex.txt}
+    latex_additional_files: colormap.tex.txt
 
 bibtex_bibfiles:
     - content/references.bib

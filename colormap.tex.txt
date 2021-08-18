@@ -1,0 +1,5 @@
+\definecolor{blue}{rgb}{0.002,0.443,0.682}
+\definecolor{red}{rgb}{0.859,0.157,0.188}
+
+\newcommand{\blue}[1]{\color{blue} #1}
+\newcommand{\red}[1]{\color{red} #1}
