@@ -114,7 +114,7 @@ sphinx:
           "green": ["\\class{green}{#1}", 1]
           "dkorange": ["\\class{dkorange}{#1}", 1]
           "cyan": ["\\class{cyan}{#1}", 1]
-          "magenta": ["\\class{red}{#1}", 1]
+          "magenta": ["\\class{magenta}{#1}", 1]
           "yellow": ["\\class{yellow}{#1}", 1]
           "peagreen": ["\\class{peagreen}{#1}", 1]
           "darkblue": ["\\class{darkblue}{#1}", 1]
