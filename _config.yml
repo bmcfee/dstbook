@@ -84,11 +84,23 @@ sphinx:
   config:
     html_theme_options:
       use_download_button: false
-    mathjax_config:
-      TeX:
-        extensions:
-          - color.js
-          - cancel.js
+    mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+    mathjax3_config:
+      loader:
+        load:
+          - "[tex]/configmacros"
+          - "[tex]/cancel"
+          - "[tex]/color"
+      tex:
+        packages:
+          "+": 
+            - configmacros
+            - cancel
+            - color
+        macros:
+          "red": ["{\\color{\\#DC2830} #1}", 1]
+          "floor": ["{\\lfloor#1\\rfloor}", 1]
+
     latex_elements:
       extrapackages: \usepackage{cancel,color}
 
