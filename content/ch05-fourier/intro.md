@@ -18,5 +18,4 @@ This process can be relatively complicated, so we'll introduce each step separat
 4. Understanding the frequency domain
 5. Examples
 
-From this chapter onward, we'll be making extensive use of complex numbers.
-If you're not yet comfortable with complex numbers, now would be a good time to review the [appendix](/appendix/Complex).
+From this chapter onward, we'll be making extensive use of [complex numbers](complex).

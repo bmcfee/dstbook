@@ -84,8 +84,13 @@ sphinx:
   config:
     html_theme_options:
       use_download_button: false
-  #
-  #
+    mathjax_config:
+      TeX:
+        extensions:
+          - color.js
+          - cancel.js
+    latex_elements:
+      extrapackages: \usepackage{cancel,color}
 
 bibtex_bibfiles:
     - content/references.bib

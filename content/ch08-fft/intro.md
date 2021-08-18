@@ -19,3 +19,6 @@ It is not a separate transform!
 More specifically, in this chapter we will see the so-called "radix-2 Cooley-Tukey" algorithm.
 
 Before that, we'll first need to clearly state what we mean by *efficiency*, and analyze the naive DFT method to get a sense of what the baseline is.
+```{eval-rst}
+.. index:: ! Fast Fourier Transform
+```

@@ -5,7 +5,7 @@ x update citation styles
 
 x exercises for complex chapter
 
-- psychoacoustics, JND and quantization, 1.2.4
+- psychoacoustics, JND and quantization, 1.2.4, dynamic range
 x define hann window 2.2.4
 
 
