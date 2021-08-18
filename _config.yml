@@ -84,22 +84,41 @@ sphinx:
   config:
     html_theme_options:
       use_download_button: false
-    mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-    mathjax3_config:
-      loader:
-        load:
-          - "[tex]/configmacros"
-          - "[tex]/cancel"
-          - "[tex]/color"
-      tex:
-        packages:
-          "+": 
-            - configmacros
-            - cancel
-            - color
-        macros:
-          "red": ["{\\color{\\#DC2830} #1}", 1]
-          "floor": ["{\\lfloor#1\\rfloor}", 1]
+        #    mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+        #    mathjax3_config:
+        #loader:
+        #load:
+        #  - "[tex]/configmacros"
+        #  - "[tex]/cancel"
+        #  - "[tex]/color"
+        #tex:
+        #packages:
+        #  "+": 
+        #    - configmacros
+        #    - cancel
+        #    - color
+        #macros:
+        #  "red": ["{\\color{\\#DC2830} #1}", 1]
+        #  "floor": ["{\\lfloor#1\\rfloor}", 1]
+    mathjax_config:
+      TeX:
+        extensions: 
+          - cancel.js
+          - color.js
+          - HTML.js
+        Macros:
+          "blue": ["\\class{blue}{#1}", 1]
+          "red": ["\\class{red}{#1}", 1]
+          "orange": ["\\class{orange}{#1}", 1]
+          "purple": ["\\class{purple}{#1}", 1]
+          "green": ["\\class{green}{#1}", 1]
+          "dkorange": ["\\class{dkorange}{#1}", 1]
+          "cyan": ["\\class{cyan}{#1}", 1]
+          "magenta": ["\\class{red}{#1}", 1]
+          "yellow": ["\\class{yellow}{#1}", 1]
+          "peagreen": ["\\class{peagreen}{#1}", 1]
+          "darkblue": ["\\class{darkblue}{#1}", 1]
+          "darkorange": ["\\class{darkorange}{#1}", 1]
 
     latex_elements:
       extrapackages: \usepackage{cancel,color}
