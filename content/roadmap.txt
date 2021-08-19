@@ -30,9 +30,9 @@ x eq 12.1 has a bug in the graf above
 
 x iir systems: b for before (system), a for after (system)
 
-- standardize color macros
+x standardize color macros
     https://jupyterbook.org/advanced/sphinx.html#defining-tex-macros
-- color audit for final chapters
+x color audit for final chapters
 - fix plot styles for sampled signals
 - update logo and aesthetics generally
 x legend frames?
