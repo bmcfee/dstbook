@@ -43,11 +43,11 @@ figure.constrained_layout.use: True
 
 image.cmap: plasma
 
-# colors = ['#0271AE', '#DC2830', '#FFC438',  # blue, red, light orange
+# colors = ['#0271AE', '#DC2830', '#F2AA00',  # blue, red, light orange
 #           '#343837',                        # gray
 #           '#6E3B87', '#007D4D', '#FA902D',  # purple, green, orange
-#           '#0095B7', '#CB0C7B', '#F7E43C',  # cyan, magenta, yellow
-#           '#88B93B', '#444F95', '#F16232']  # pea green, dark blue, dark orange
+#           '#007D80', '#C20CAA', '#F7E43C',  # cyan, magenta, yellow
+#           '#00631E', '#444F95', '#F16232']  # pea green, dark blue, dark orange
 
 axes.grid: True
 axes.xmargin: 0
@@ -60,4 +60,4 @@ axes.spines.left: False
 axes.spines.right: False
 axes.spines.top: False
 axes.spines.bottom: False
-axes.prop_cycle: cycler('color', ['0271AE', 'DC2830', 'FFC438', '343837', '6E3B87', '007D4D', 'FA902D', '0095B7', 'CB0C7B', 'F7E43C', '88B93B', '444F95', 'F16232'])
+axes.prop_cycle: cycler('color', ['0271AE', 'DC2830', 'F2AA00', '343837', '6E3B87', '007D4D', 'FA902D', '007D80', 'C20CAA', 'F7E43C', '00631E', '444F95', 'F16232'])

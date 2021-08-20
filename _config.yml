@@ -80,6 +80,7 @@ repository:
 sphinx:
   extra_extensions:
     - sphinx_jupyterbook_latex       
+    - sphinxcontrib.inkscapeconverter
   #  config                    : ""  # key-value pairs to directly over-ride the Sphinx configuration
   config:
     jblatex_load_imgconverter: true

@@ -10,22 +10,16 @@ div.cell div.cell_input {
 }
 
 
-/*
-colors = ['#0271AE', '#DC2830', '#FFC438',  # blue, red, light orange
-            '#6E3B87', '#008D5D', '#FA902D',  # purple, green, orange
-            '#0095B7', '#CB0C7B', '#F7E43C',  # cyan, magenta, yellow
-            '#88B93B', '#444F95', '#F16232']  # pea green, dark blue, dark orange
-*/
 .blue {color: #0271AE;}
 .red {color: #DC2830;}
-.orange {color: #FFC438;}
+.orange {color: #F2AA00;}
 .purple {color: #633B87;}
-.green {color: #008D5D;}
+.green {color: #007D4D;}
 .dkorange {color: #FA902D;}
-.cyan {color: #0095B7;}
-.magenta {color: #CB0C8B;}
+.cyan {color: #007D80;}
+.magenta {color: #C20CAA;}
 .yellow {color: #F7E43C;}
-.peagreen {color: #88B93B;}
+.peagreen {color: #00A69D;}
 .darkblue {color: #444F95;}
 .darkorange {color: #F16232;}
 

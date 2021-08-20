@@ -33,10 +33,10 @@ x iir systems: b for before (system), a for after (system)
 x standardize color macros
     https://jupyterbook.org/advanced/sphinx.html#defining-tex-macros
 x color audit for final chapters
-- fix plot styles for sampled signals
-- update logo and aesthetics generally
+x fix plot styles for sampled signals
+x update logo and aesthetics generally
 x legend frames?
-- do something about yellow
+x do something about yellow
 
 - landing page
 x figure on every chapter intro
