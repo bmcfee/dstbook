@@ -14,8 +14,9 @@ x proselint
     end | tee proselint.out
 
 x jb, mathjax update
-- latex/pdf build:
-    - might need to use :nowrap: directive on tricky equations
+x latex/pdf build:
+    - might need to use :nowrap: directive on tricky equations ~~> use aligned instead of align*
+    - still need to work out svg conversion though: https://github.com/executablebooks/jupyter-book/issues/1429
 
 
 2021 revisions
