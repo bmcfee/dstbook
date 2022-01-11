@@ -7,7 +7,7 @@ F21 revisions
 
 - distinguish roll-off from ripple
 - check normalization in dual convoultion theorem
-- proselint
+x proselint
 
     for i in (find content -name \*.ipynb | sort)
         echo $i ; cat $i |nbstripout | jupyter nbconvert --log-level=CRITICAL --to markdown --stdin --stdout |proselint --compact - ; echo --- 
