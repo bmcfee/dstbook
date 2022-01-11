@@ -19,7 +19,7 @@
 title: Digital Signals Theory
 author: Brian McFee
 email: brian.mcfee@nyu.edu
-copyright:  "2020-2021"
+copyright:  "2020-2022"
 logo: "content/images/logo/dstlogo.png"
 exclude_patterns: [content/unused/*, content/setup.ipynb, content/chapter-covers.ipynb]
 only_build_toc_files        : true
@@ -43,7 +43,7 @@ parse:
     # - html_image
     - linkify
     # - replacements
-    # - smartquotes
+    - smartquotes
     - substitution
 
   myst_url_schemes          : [mailto, http, https]  # URI schemes that will be recognised as external URLs in Markdown links
@@ -81,47 +81,34 @@ sphinx:
   extra_extensions:
     - sphinx_jupyterbook_latex       
     - sphinxcontrib.inkscapeconverter
-  #  config                    : ""  # key-value pairs to directly over-ride the Sphinx configuration
   config:
     jblatex_load_imgconverter: true
     jblatex_captions_to_parts: true
     html_theme_options:
       use_download_button: false
-        #    mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-        #    mathjax3_config:
-        #loader:
-        #load:
-        #  - "[tex]/configmacros"
-        #  - "[tex]/cancel"
-        #  - "[tex]/color"
-        #tex:
-        #packages:
-        #  "+": 
-        #    - configmacros
-        #    - cancel
-        #    - color
-        #macros:
-        #  "red": ["{\\color{\\#DC2830} #1}", 1]
-        #  "floor": ["{\\lfloor#1\\rfloor}", 1]
-    mathjax_config:
-      TeX:
-        extensions: 
-          - cancel.js
-          - color.js
-          - HTML.js
-        Macros:
-          "blue": ["\\class{blue}{#1}", 1]
-          "red": ["\\class{red}{#1}", 1]
-          "orange": ["\\class{orange}{#1}", 1]
-          "purple": ["\\class{purple}{#1}", 1]
-          "green": ["\\class{green}{#1}", 1]
-          "dkorange": ["\\class{dkorange}{#1}", 1]
-          "cyan": ["\\class{cyan}{#1}", 1]
-          "magenta": ["\\class{magenta}{#1}", 1]
-          "yellow": ["\\class{yellow}{#1}", 1]
-          "peagreen": ["\\class{peagreen}{#1}", 1]
-          "darkblue": ["\\class{darkblue}{#1}", 1]
-          "darkorange": ["\\class{darkorange}{#1}", 1]
+    mathjax3_config:
+      loader:
+        load:
+          - "[tex]/configMacros"
+          - "[tex]/html"
+      tex:
+        packages:
+          "+": 
+            - configMacros
+            - html
+        macros:
+           "blue": ["\\class{blue}{#1}", 1]
+           "red": ["\\class{red}{#1}", 1]
+           "orange": ["\\class{orange}{#1}", 1]
+           "purple": ["\\class{purple}{#1}", 1]
+           "green": ["\\class{green}{#1}", 1]
+           "dkorange": ["\\class{dkorange}{#1}", 1]
+           "cyan": ["\\class{cyan}{#1}", 1]
+           "magenta": ["\\class{magenta}{#1}", 1]
+           "yellow": ["\\class{yellow}{#1}", 1]
+           "peagreen": ["\\class{peagreen}{#1}", 1]
+           "darkblue": ["\\class{darkblue}{#1}", 1]
+           "darkorange": ["\\class{darkorange}{#1}", 1]
 
     latex_elements:
       extrapackages: \usepackage{cancel,color}
