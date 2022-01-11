@@ -13,6 +13,10 @@ x proselint
         echo $i ; cat $i |nbstripout | jupyter nbconvert --log-level=CRITICAL --to markdown --stdin --stdout |proselint --compact - ; echo --- 
     end | tee proselint.out
 
+x jb, mathjax update
+- latex/pdf build:
+    - might need to use :nowrap: directive on tricky equations
+
 
 2021 revisions
 

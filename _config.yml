@@ -79,7 +79,7 @@ repository:
 # Advanced and power-user settings
 sphinx:
   extra_extensions:
-    - sphinx_jupyterbook_latex       
+    - sphinx_jupyterbook_latex
     - sphinxcontrib.inkscapeconverter
   config:
     jblatex_load_imgconverter: true
