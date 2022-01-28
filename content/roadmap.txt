@@ -2,6 +2,16 @@ TODOs
 
 S22 revisions
 
+- index terms
+    insert at each point:
+    
+    ```{eval-rst}
+    .. index:: ! index-phrase (eg Fast Fourier Transform)
+    ```
+- fix colors in latex build
+- fix chapter ordering
+- pull out animations
+- pull out audio embeds
 
 F21 revisions
 

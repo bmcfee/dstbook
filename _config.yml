@@ -79,11 +79,11 @@ repository:
 # Advanced and power-user settings
 sphinx:
   extra_extensions:
-    - sphinx_jupyterbook_latex
-    - sphinxcontrib.inkscapeconverter
+      # - sphinx_jupyterbook_latex
+      - sphinxcontrib.inkscapeconverter
   config:
-    jblatex_load_imgconverter: true
-    jblatex_captions_to_parts: true
+    # jblatex_load_imgconverter: true
+    # jblatex_captions_to_parts: true
     html_theme_options:
       use_download_button: false
     mathjax3_config:
@@ -111,9 +111,19 @@ sphinx:
            "darkorange": ["\\class{darkorange}{#1}", 1]
 
     latex_elements:
-      extrapackages: \usepackage{cancel,color}
+      extrapackages: "\\usepackage{cancel,color}\n\\usepackage{epigrafica}"
       preamble: \input{colormap.tex.txt}
-    latex_additional_files: colormap.tex.txt
+    latex_additional_files: ["colormap.tex.txt", "Alon.cls", "epigrafica.sty"]
+    latex_docclass:
+        howto: "alon"
+        manual: "alon"
+        #    latex_toplevel_sectioning: 'part'
+
+latex:
+  use_jupyterbook_latex: false
+  latex_engine: xelatex
+  latex_documents:
+    targetname: dstbook.tex
 
 bibtex_bibfiles:
     - content/references.bib
