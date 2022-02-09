@@ -1,4 +1,4 @@
-.PHONY: book clean spotless
+.PHONY: book clean spotless all serve check pdf
 
 all: book
 
