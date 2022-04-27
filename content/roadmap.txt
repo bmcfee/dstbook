@@ -2,6 +2,8 @@ TODOs
 
 S22 revisions
 
+- theorem / proof environment https://github.com/executablebooks/sphinx-proof
+- exercise environment https://ebp-sphinx-exercise.readthedocs.io/en/latest/index.html
 - index terms
     insert at each point:
     
