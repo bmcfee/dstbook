@@ -26,14 +26,6 @@ Put simply, I wasn't happy with any of the existing digital signals textbooks th
 While many of them are excellent reference books, they often assume a fairly sophisticated technical background, and are aimed at upper-division undergraduate students in engineering programs.
 After stubbornly trying to make do with existing books, I got frustrated enough to make my own!
 
-In preparing this book, I also made the specific decision to go purely digital, and use the Jupyter-Book platform for developing the materials.
-This has a few benefits over traditional texts:
-
-- Full color figures and animations are present from the beginning;
-- Audio examples are embedded directly in the text;
-- Example code is included directly, and you can run it yourself;
-- It's freely available on the Internet!
-
 ## Supplemental resources
 
 This book is meant to be fairly self-contained, but it certainly can't cover everything.
