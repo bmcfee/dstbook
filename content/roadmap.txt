@@ -56,8 +56,28 @@ S22 revisions
         - fig 9.5 (hop length)                      --> multiple frames
         - fig 11.1 (iir processing)                 --> single frame
 
+- update cross-doc references?
+/home/bmcfee/git/dstbook/content/ch01-signals/Waves.ipynb.rst:260002: WARNING: Couldn't find key `circlewave` in keys defined across all pages.
+/home/bmcfee/git/dstbook/content/ch01-signals/Waves.ipynb.rst:310002: WARNING: Couldn't find key `waveparams` in keys defined across all pages.
+/home/bmcfee/git/dstbook/content/ch02-sampling/Aliasing.ipynb.rst:80002: WARNING: Couldn't find key `aliasing` in keys defined across all pages.
+/home/bmcfee/git/dstbook/content/ch02-sampling/Quantization.ipynb.rst:120002: WARNING: Couldn't find key `quantization` in keys defined across all pages.
+/home/bmcfee/git/dstbook/content/ch03-convolution/Convolution.ipynb.rst:60002: WARNING: Couldn't find key `convolution-anim` in keys defined across all pages.
+/home/bmcfee/git/dstbook/content/ch03-convolution/IR.ipynb.rst:100002: WARNING: Couldn't find key `rir` in keys defined across all pages.
+/home/bmcfee/git/dstbook/content/ch04-complex/Exponentials.ipynb.rst:60002: WARNING: Couldn't find key `euler` in keys defined across all pages.
+/home/bmcfee/git/dstbook/content/ch04-complex/Intro.ipynb.rst:60002: WARNING: Couldn't find key `line` in keys defined across all pages.
+/home/bmcfee/git/dstbook/content/ch04-complex/Multiplication-and-division.ipynb.rst:60002: WARNING: Couldn't find key `polarmult` in keys defined across all pages.
+/home/bmcfee/git/dstbook/content/ch04-complex/Multiplication-and-division.ipynb.rst:100002: WARNING: Couldn't find key `inverse` in keys defined across all pages.
+/home/bmcfee/git/dstbook/content/ch04-complex/Powers-and-waves.ipynb.rst:60002: WARNING: Couldn't find key `zexp` in keys defined across all pages.
+/home/bmcfee/git/dstbook/content/ch05-fourier/AnalysisFrequencies.ipynb:80002: WARNING: undefined label: sum-waves
+/home/bmcfee/git/dstbook/content/ch05-fourier/Exercises.ipynb:20014: WARNING: Failed to create a cross reference. A title or caption not found: quantize-function
+/home/bmcfee/git/dstbook/content/ch05-fourier/Similarity.ipynb.rst:80002: WARNING: Couldn't find key `similarity` in keys defined across all pages.
+/home/bmcfee/git/dstbook/content/ch05-fourier/SummingSinusoids.ipynb:140004: WARNING: undefined label: averaging-wave
+/home/bmcfee/git/dstbook/content/ch11-iir/UsingIIR.ipynb:90002: WARNING: undefined label: butter
+/home/bmcfee/git/dstbook/content/ch11-iir/UsingIIR.ipynb:140002: WARNING: undefined label: butter
+/home/bmcfee/git/dstbook/content/ch12-ztransform/PoleZero.ipynb:1: WARNING: undefined label: zeroplot
 
-- update text around animations:
+
+x update text around animations:
     x 1.2
     x 2.2
     x 2.4

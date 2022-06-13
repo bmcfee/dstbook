@@ -81,6 +81,7 @@ sphinx:
   extra_extensions:
       # - sphinx_jupyterbook_latex
       - sphinxcontrib.inkscapeconverter
+      - sphinx_exercise
   config:
     # jblatex_load_imgconverter: true
     # jblatex_captions_to_parts: true

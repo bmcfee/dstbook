@@ -9,6 +9,9 @@ div.cell div.cell_input {
     background-color: #f7f7f3;
 }
 
+div.exercise {
+    background-color: #f7f7f3;
+}
 
 .blue {color: #0271AE;}
 .red {color: #DC2830;}
