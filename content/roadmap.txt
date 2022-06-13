@@ -3,7 +3,25 @@ TODOs
 S22 revisions
 
 - theorem / proof environment https://github.com/executablebooks/sphinx-proof
-- exercise environment https://ebp-sphinx-exercise.readthedocs.io/en/latest/index.html
+
+    - 2.2.3.1 aliasing
+    - 2.3.3.1 nyquist-shannon
+    - 3.5.4 convolution properties
+    - 3.6.1.1 shift invariance
+    - 3.6.2.2 linearity
+    - 5.7.1.1 geometric series
+    - 5.7.2 complex exponential sums
+    - 6.1 dft linearity
+    - 6.2.1 shifting theorem
+    - 6.3 conjugate symmetry
+    - 7.2.1 inverse dft
+    - 10.1.2 convolution theorem
+    - 12.2.1 z-transform linearity
+    - 12.2.2 z-transform shifting
+    - 12.2.3 z-transform convolution
+
+- exercise environment https://ebp-sphinx-exercise.readthedocs.io/en/latest/index.html / https://github.com/executablebooks/sphinx-exercise
+
 - index terms
     insert at each point:
     
@@ -12,7 +30,33 @@ S22 revisions
     ```
 - fix colors in latex build
 - fix chapter ordering
+- alt text for all figures
 - pull out animations
+    -->
+        - fig 1.8 (wave generation from circle)     --> static frame is fine
+        - fig 1.9 (wave parameters)                 --> static frame is fine
+        - fig 2.3 (aliasing)                        --> overlap several
+        - fig 2.7 (quantization)                    --> multiple frames
+        - fig 3.3 (convolution calculation)         --> ???
+        - fig 3.6 (room IR)                         --> overlap several
+        - fig 4.1 (real number line)                --> multiple frames
+        - fig 4.6 (euler's formula convergence)     --> multiple frames
+        - fig 4.8 (complex multiplication)          --> single frame
+        - fig 4.9 (complex inversion)               --> overlap several?  or single frame
+        - fig 4.10 (complex exponentiation)         --> final frame
+        - fig 5.1 (similarity)                      --> final frame
+        - fig 5.12 (similarity and phase)           --> single frame
+        - fig 5.13 (dft real/imaginary phase)       --> single frame?  maybe multiple
+        - fig 5.18 (geometric series)               --> final frame
+        - fig 6.3 (shifting theorem)                --> ???
+        - fig 7.3 (partial synthesis)               --> multiple frames
+        - fig 9.1 (framing)                         --> multiple frams
+        - fig 9.2 (stft frames)                     --> single frame
+        - fig 9.4 (frame length)                    --> multiple frames
+        - fig 9.5 (hop length)                      --> multiple frames
+        - fig 11.1 (iir processing)                 --> single frame
+
+
 - pull out audio embeds
 
 F21 revisions
@@ -29,6 +73,8 @@ x jb, mathjax update
 x latex/pdf build:
     - might need to use :nowrap: directive on tricky equations ~~> use aligned instead of align*
     - still need to work out svg conversion though: https://github.com/executablebooks/jupyter-book/issues/1429
+        --> this might be fixed as of https://github.com/executablebooks/MyST-NB/pull/380
+            - may require myst-nb >= 0.14.0
 
 
 2021 revisions
