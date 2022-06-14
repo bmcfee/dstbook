@@ -23,8 +23,9 @@ S22 revisions
     x 12.2.2 z-transform shifting
     x 12.2.3 z-transform convolution
 
-    --- also go through for all definitions
-    --- and Euler's formula in chapter 4
+    x also go through for all definitions
+    >< and Euler's formula in chapter 4
+    --- also for examples
 
 - exercise environment https://ebp-sphinx-exercise.readthedocs.io/en/latest/index.html / https://github.com/executablebooks/sphinx-exercise
     x ch1
