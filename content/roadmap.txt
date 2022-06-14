@@ -62,6 +62,7 @@ x exercise environment https://ebp-sphinx-exercise.readthedocs.io/en/latest/inde
     - appendix
     - + all intro pages
 
+- pull out audio embeds
 - pull out animations
     -->
         - fig 1.8 (wave generation from circle)     --> static frame is fine
@@ -122,8 +123,6 @@ x update text around animations:
     x 9.2
     x Preface
 
-
-- pull out audio embeds
 
 F21 revisions
 
