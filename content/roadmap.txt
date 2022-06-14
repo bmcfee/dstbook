@@ -21,6 +21,18 @@ S22 revisions
     - 12.2.3 z-transform convolution
 
 - exercise environment https://ebp-sphinx-exercise.readthedocs.io/en/latest/index.html / https://github.com/executablebooks/sphinx-exercise
+    x ch1
+    x ch2
+    x ch3
+    x ch4
+    x ch5
+    x ch6
+    x ch7
+    x ch8
+    x ch9
+    x ch10
+    x ch11
+    x ch12
 
 - index terms
     insert at each point:
@@ -56,7 +68,7 @@ S22 revisions
         - fig 9.5 (hop length)                      --> multiple frames
         - fig 11.1 (iir processing)                 --> single frame
 
-- update cross-doc references?
+x update cross-doc references?
 /home/bmcfee/git/dstbook/content/ch01-signals/Waves.ipynb.rst:260002: WARNING: Couldn't find key `circlewave` in keys defined across all pages.
 /home/bmcfee/git/dstbook/content/ch01-signals/Waves.ipynb.rst:310002: WARNING: Couldn't find key `waveparams` in keys defined across all pages.
 /home/bmcfee/git/dstbook/content/ch02-sampling/Aliasing.ipynb.rst:80002: WARNING: Couldn't find key `aliasing` in keys defined across all pages.
