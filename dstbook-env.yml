@@ -306,5 +306,6 @@ dependencies:
     - sphinx-design==0.1.0
     - sphinx-exercise==0.4.0
     - sphinx-external-toc==0.2.4
+    - sphinx-proof==0.1.3
     - sphinxcontrib-svg2pdfconverter==1.1.1
 prefix: /home/bmcfee/miniconda/envs/dstbook

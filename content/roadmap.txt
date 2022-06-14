@@ -2,23 +2,29 @@ TODOs
 
 S22 revisions
 
+- full-width class on proof blocks?
+- use sidebars instead of / in addition to margins?
+
 - theorem / proof environment https://github.com/executablebooks/sphinx-proof
 
-    - 2.2.3.1 aliasing
-    - 2.3.3.1 nyquist-shannon
-    - 3.5.4 convolution properties
-    - 3.6.1.1 shift invariance
-    - 3.6.2.2 linearity
-    - 5.7.1.1 geometric series
-    - 5.7.2 complex exponential sums
-    - 6.1 dft linearity
-    - 6.2.1 shifting theorem
-    - 6.3 conjugate symmetry
-    - 7.2.1 inverse dft
-    - 10.1.2 convolution theorem
-    - 12.2.1 z-transform linearity
-    - 12.2.2 z-transform shifting
-    - 12.2.3 z-transform convolution
+    x 2.2.3.1 aliasing
+    x 2.3.3.1 nyquist-shannon
+    x 3.5.4 convolution properties
+    x 3.6.1.1 shift invariance
+    x 3.6.2.2 linearity
+    x 5.7.1.1 geometric series
+    x 5.7.2 complex exponential sums
+    x 6.1 dft linearity
+    x 6.2.1 shifting theorem
+    x 6.3 conjugate symmetry
+    ? 7.2.1 inverse dft
+    x 10.1.2 convolution theorem
+    x 12.2.1 z-transform linearity
+    x 12.2.2 z-transform shifting
+    x 12.2.3 z-transform convolution
+
+    --- also go through for all definitions
+    --- and Euler's formula in chapter 4
 
 - exercise environment https://ebp-sphinx-exercise.readthedocs.io/en/latest/index.html / https://github.com/executablebooks/sphinx-exercise
     x ch1
@@ -67,6 +73,8 @@ S22 revisions
         - fig 9.4 (frame length)                    --> multiple frames
         - fig 9.5 (hop length)                      --> multiple frames
         - fig 11.1 (iir processing)                 --> single frame
+
+- add labels to fig 1.11
 
 x update cross-doc references?
 /home/bmcfee/git/dstbook/content/ch01-signals/Waves.ipynb.rst:260002: WARNING: Couldn't find key `circlewave` in keys defined across all pages.

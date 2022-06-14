@@ -8,8 +8,13 @@ body { background-color: #fefefa;}
 div.cell div.cell_input {
     background-color: #f7f7f3;
 }
-
 div.exercise {
+    background-color: #f7f7f3;
+}
+div.theorem {
+    background-color: #f7f7f3;
+}
+div.proof {
     background-color: #f7f7f3;
 }
 
