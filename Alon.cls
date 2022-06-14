@@ -1052,7 +1052,7 @@
     \myaddcontentsline{\@chaptoc}{chapsection}{\protect\ssubnumberline{\thesection}#1}%
     \addtocounter{section}{-1}\fi
   \@startsection{section}{1}{\z@}{-16\p@}{6\p@}{\sectionfont}[#2]{#3}}
-\def\sectionauthor#1{\hfill{\ChapTOCAuthorFont #1}}
+%\def\sectionauthor#1{\hfill{\ChapTOCAuthorFont #1}}
 
 \newcommand\subsection{\@ifstar{\@ssubsection}{\@trplarg{\@subsection}}}
 \def\@ssubsection#1{%

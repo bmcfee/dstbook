@@ -2,9 +2,6 @@ TODOs
 
 S22 revisions
 
-- full-width class on proof blocks?
-- use sidebars instead of / in addition to margins?
-
 - theorem / proof environment https://github.com/executablebooks/sphinx-proof
 
     x 2.2.3.1 aliasing

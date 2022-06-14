@@ -113,8 +113,9 @@ sphinx:
            "darkorange": ["\\class{darkorange}{#1}", 1]
 
     latex_elements:
-      extrapackages: "\\usepackage{cancel,color}\n\\usepackage{epigrafica}"
+      extrapackages: "\\usepackage{cancel,color}\n\\usepackage{epigrafica}\n"
       preamble: \input{colormap.tex.txt}
+      tableofcontents: ""
     latex_additional_files: ["colormap.tex.txt", "Alon.cls", "epigrafica.sty"]
     latex_docclass:
         howto: "alon"
