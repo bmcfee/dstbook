@@ -17,7 +17,7 @@ S22 revisions
     x 6.1 dft linearity
     x 6.2.1 shifting theorem
     x 6.3 conjugate symmetry
-    ? 7.2.1 inverse dft
+    x 7.2.1 inverse dft
     x 10.1.2 convolution theorem
     x 12.2.1 z-transform linearity
     x 12.2.2 z-transform shifting
@@ -25,7 +25,7 @@ S22 revisions
 
     x also go through for all definitions
     >< and Euler's formula in chapter 4
-    --- also for examples
+    x also for examples
 
 - exercise environment https://ebp-sphinx-exercise.readthedocs.io/en/latest/index.html / https://github.com/executablebooks/sphinx-exercise
     x ch1
@@ -75,7 +75,7 @@ S22 revisions
         - fig 9.5 (hop length)                      --> multiple frames
         - fig 11.1 (iir processing)                 --> single frame
 
-- add labels to fig 1.11
+x add labels to fig 1.11
 
 x update cross-doc references?
 /home/bmcfee/git/dstbook/content/ch01-signals/Waves.ipynb.rst:260002: WARNING: Couldn't find key `circlewave` in keys defined across all pages.
