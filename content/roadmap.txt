@@ -2,7 +2,7 @@ TODOs
 
 S22 revisions
 
-- theorem / proof environment https://github.com/executablebooks/sphinx-proof
+x theorem / proof environment https://github.com/executablebooks/sphinx-proof
 
     x 2.2.3.1 aliasing
     x 2.3.3.1 nyquist-shannon
@@ -24,7 +24,7 @@ S22 revisions
     >< and Euler's formula in chapter 4
     x also for examples
 
-- exercise environment https://ebp-sphinx-exercise.readthedocs.io/en/latest/index.html / https://github.com/executablebooks/sphinx-exercise
+x exercise environment https://ebp-sphinx-exercise.readthedocs.io/en/latest/index.html / https://github.com/executablebooks/sphinx-exercise
     x ch1
     x ch2
     x ch3
@@ -45,8 +45,23 @@ S22 revisions
     .. index:: ! index-phrase (eg Fast Fourier Transform)
     ```
 - fix colors in latex build
-- fix chapter ordering
+- fix chapter numbering
 - alt text for all figures
+    - ch1
+    - ch2
+    - ch3
+    - ch4
+    - ch5
+    - ch6
+    - ch7
+    - ch8
+    - ch9
+    - ch10
+    - ch11
+    - ch12
+    - appendix
+    - + all intro pages
+
 - pull out animations
     -->
         - fig 1.8 (wave generation from circle)     --> static frame is fine
@@ -113,7 +128,7 @@ x update text around animations:
 F21 revisions
 
 - distinguish roll-off from ripple
-- check normalization in dual convoultion theorem
+- check normalization in dual convolution theorem
 x proselint
 
     for i in (find content -name \*.ipynb | sort)

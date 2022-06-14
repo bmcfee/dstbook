@@ -95,7 +95,7 @@ parts:
     - file: content/ch12-ztransform/PoleZero
     - file: content/ch12-ztransform/Exercises
 - caption: Appendix
-  numbered: true
+  numbered: false
   chapters:
   - file: content/appendixA/Fundamentals
     sections:
