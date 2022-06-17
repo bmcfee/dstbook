@@ -53,7 +53,7 @@ x exercise environment https://ebp-sphinx-exercise.readthedocs.io/en/latest/inde
     x ch2
     x ch3
     x ch4
-    - ch5
+    x ch5
     x ch6
     x ch7
     x ch8
