@@ -2,6 +2,8 @@ TODOs
 
 S22 revisions
 
+- fix animation figure sizes
+
 x theorem / proof environment https://github.com/executablebooks/sphinx-proof
 
     x 2.2.3.1 aliasing
@@ -47,19 +49,19 @@ x exercise environment https://ebp-sphinx-exercise.readthedocs.io/en/latest/inde
 - fix colors in latex build
 - fix chapter numbering
 - alt text for all figures
-    - ch1
-    - ch2
-    - ch3
-    - ch4
+    x ch1
+    x ch2
+    x ch3
+    x ch4
     - ch5
     - ch6
-    - ch7
-    - ch8
-    - ch9
+    x ch7
+    x ch8
+    x ch9
     - ch10
     - ch11
     - ch12
-    - appendix
+    x appendix
     - + all intro pages
 
 - pull out audio embeds

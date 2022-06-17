@@ -37,17 +37,26 @@ div, h1, h2, h3, h4, h5, h6 {
 
 div.section {
     text-align: justify;
-    text-justify: inter-word;
+    text-justify: auto;
+}
+
+section {
+    text-align: justify;
+    text-justify: auto;
 }
 
 div.site-navigation {
     background-color: #fcfcf8;
 }
 p.caption {
-    text-align: justify;
-    text-justify: inter-word;
+    text-align: left;
+    text-justify: auto;
 }
 span.caption-text {
+    text-align: left;
+    text-justify: auto;
+}
+figcaption {
     text-align: left;
     text-justify: auto;
 }

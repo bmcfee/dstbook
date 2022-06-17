@@ -1,9 +1,11 @@
 patch.linewidth: 0.5
 xtick.major.pad: 12
 xtick.labelsize: 14
+xtick.major.width: .5
 xtick.color: (0, 0, 0, 0.2)
 xtick.labelcolor: black
 ytick.major.pad: 12
+ytick.major.width: .5
 ytick.labelsize: 14
 ytick.color: (0, 0, 0, 0.2)
 ytick.labelcolor: black
@@ -14,12 +16,14 @@ font.serif: Palatino
 font.sans-serif: Helvetica Neue
 font.size: 14
 
-lines.linewidth: 3
-lines.markersize: 5
-lines.markeredgewidth: 0
-lines.solid_joinstyle: miter
-lines.solid_capstyle: butt
-lines.dash_joinstyle: miter
+lines.linewidth: 2
+lines.markersize: 7
+lines.markeredgewidth: 1.5
+# lines.markerfacecolor: fefefa
+lines.markeredgecolor: fefefa
+lines.solid_joinstyle: round
+lines.solid_capstyle: round
+lines.dash_joinstyle: bevel
 lines.dash_capstyle: butt
 
 grid.color: 0.0
@@ -29,6 +33,7 @@ grid.linewidth: .5
 # animation.html: html5
 animation.html: jshtml
 animation.frame_format: png
+
 savefig.transparent: True
 
 legend.frameon: True
@@ -38,7 +43,7 @@ legend.handlelength: 1
 # legend.labelcolor: markerfacecolor
 
 figure.figsize: 8, 8
-figure.dpi: 90
+figure.dpi: 100
 figure.constrained_layout.use: True
 
 image.cmap: plasma
