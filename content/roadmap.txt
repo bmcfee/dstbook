@@ -54,15 +54,15 @@ x exercise environment https://ebp-sphinx-exercise.readthedocs.io/en/latest/inde
     x ch3
     x ch4
     - ch5
-    - ch6
+    x ch6
     x ch7
     x ch8
     x ch9
-    - ch10
-    - ch11
-    - ch12
+    x ch10
+    x ch11
+    x ch12
     x appendix
-    - + all intro pages
+    x + all intro pages
 
 - pull out audio embeds
 - pull out animations
