@@ -4,6 +4,42 @@ S22 revisions
 
 - fix animation figure sizes
 
+
+-- tex things:
+
+- index terms
+    insert at each point:
+    
+    ```{eval-rst}
+    .. index:: ! index-phrase (eg Fast Fourier Transform)
+    ```
+- fix colors in latex build
+- pull out audio embeds
+- pull out animations
+    -->
+        - fig 1.8 (wave generation from circle)     --> static frame is fine
+        - fig 1.9 (wave parameters)                 --> static frame is fine
+        - fig 2.3 (aliasing)                        --> overlap several
+        - fig 2.7 (quantization)                    --> multiple frames
+        - fig 3.3 (convolution calculation)         --> ???
+        - fig 3.6 (room IR)                         --> overlap several
+        - fig 4.1 (real number line)                --> multiple frames
+        - fig 4.6 (euler's formula convergence)     --> multiple frames
+        - fig 4.8 (complex multiplication)          --> single frame
+        - fig 4.9 (complex inversion)               --> overlap several?  or single frame
+        - fig 4.10 (complex exponentiation)         --> final frame
+        - fig 5.1 (similarity)                      --> final frame
+        - fig 5.12 (similarity and phase)           --> single frame
+        - fig 5.13 (dft real/imaginary phase)       --> single frame?  maybe multiple
+        - fig 5.18 (geometric series)               --> final frame
+        - fig 6.3 (shifting theorem)                --> ???
+        - fig 7.3 (partial synthesis)               --> multiple frames
+        - fig 9.1 (framing)                         --> multiple frames
+        - fig 9.2 (stft frames)                     --> single frame
+        - fig 9.4 (frame length)                    --> multiple frames
+        - fig 9.5 (hop length)                      --> multiple frames
+        - fig 11.1 (iir processing)                 --> single frame
+
 x theorem / proof environment https://github.com/executablebooks/sphinx-proof
 
     x 2.2.3.1 aliasing
@@ -40,15 +76,9 @@ x exercise environment https://ebp-sphinx-exercise.readthedocs.io/en/latest/inde
     x ch11
     x ch12
 
-- index terms
-    insert at each point:
-    
-    ```{eval-rst}
-    .. index:: ! index-phrase (eg Fast Fourier Transform)
-    ```
-- fix colors in latex build
-- fix chapter numbering
-- alt text for all figures
+
+x fix chapter numbering
+x alt text for all figures
     x ch1
     x ch2
     x ch3
@@ -64,31 +94,7 @@ x exercise environment https://ebp-sphinx-exercise.readthedocs.io/en/latest/inde
     x appendix
     x + all intro pages
 
-- pull out audio embeds
-- pull out animations
-    -->
-        - fig 1.8 (wave generation from circle)     --> static frame is fine
-        - fig 1.9 (wave parameters)                 --> static frame is fine
-        - fig 2.3 (aliasing)                        --> overlap several
-        - fig 2.7 (quantization)                    --> multiple frames
-        - fig 3.3 (convolution calculation)         --> ???
-        - fig 3.6 (room IR)                         --> overlap several
-        - fig 4.1 (real number line)                --> multiple frames
-        - fig 4.6 (euler's formula convergence)     --> multiple frames
-        - fig 4.8 (complex multiplication)          --> single frame
-        - fig 4.9 (complex inversion)               --> overlap several?  or single frame
-        - fig 4.10 (complex exponentiation)         --> final frame
-        - fig 5.1 (similarity)                      --> final frame
-        - fig 5.12 (similarity and phase)           --> single frame
-        - fig 5.13 (dft real/imaginary phase)       --> single frame?  maybe multiple
-        - fig 5.18 (geometric series)               --> final frame
-        - fig 6.3 (shifting theorem)                --> ???
-        - fig 7.3 (partial synthesis)               --> multiple frames
-        - fig 9.1 (framing)                         --> multiple frams
-        - fig 9.2 (stft frames)                     --> single frame
-        - fig 9.4 (frame length)                    --> multiple frames
-        - fig 9.5 (hop length)                      --> multiple frames
-        - fig 11.1 (iir processing)                 --> single frame
+
 
 x add labels to fig 1.11
 
