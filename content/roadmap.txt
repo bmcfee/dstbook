@@ -2,6 +2,9 @@ TODOs
 
 S22 revisions
 
+x fix fig 10.10 caption
+x fix RIR legend
+
 - fix animation figure sizes
 
 
