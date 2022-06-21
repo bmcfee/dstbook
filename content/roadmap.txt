@@ -17,13 +17,14 @@ x fix RIR legend
     .. index:: ! index-phrase (eg Fast Fourier Transform)
     ```
 - fix colors in latex build
+- fix neutral color in mpl style
 - pull out audio embeds
 - pull out animations
     -->
-        - fig 1.8 (wave generation from circle)     --> static frame is fine
-        - fig 1.9 (wave parameters)                 --> static frame is fine
-        - fig 2.3 (aliasing)                        --> overlap several
-        - fig 2.7 (quantization)                    --> multiple frames
+        x fig 1.8 (wave generation from circle)     --> static frame is fine
+        x fig 1.9 (wave parameters)                 --> static frame is fine
+        x fig 2.3 (aliasing)                        --> overlap several
+        x fig 2.7 (quantization)                    --> multiple frames
         - fig 3.3 (convolution calculation)         --> ???
         - fig 3.6 (room IR)                         --> overlap several
         - fig 4.1 (real number line)                --> multiple frames
@@ -37,11 +38,11 @@ x fix RIR legend
         - fig 5.18 (geometric series)               --> final frame
         - fig 6.3 (shifting theorem)                --> ???
         - fig 7.3 (partial synthesis)               --> multiple frames
-        - fig 9.1 (framing)                         --> multiple frames
-        - fig 9.2 (stft frames)                     --> single frame
-        - fig 9.4 (frame length)                    --> multiple frames
-        - fig 9.5 (hop length)                      --> multiple frames
-        - fig 11.1 (iir processing)                 --> single frame
+        x fig 9.1 (framing)                         --> single frame
+        x fig 9.2 (stft frames)                     --> multiple frames
+        x fig 9.4 (frame length)                    --> multiple frames
+        x fig 9.5 (hop length)                      --> multiple frames
+        x fig 11.1 (iir processing)                 --> single frame
 
 x theorem / proof environment https://github.com/executablebooks/sphinx-proof
 
