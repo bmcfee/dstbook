@@ -1,15 +1,16 @@
 \definecolor{blue}{rgb}{0.008, 0.443, 0.682}
 \definecolor{red}{rgb}{0.863, 0.157, 0.188}
 \definecolor{orange}{rgb}{0.949, 0.667, 0.000}
-\definecolor{purple}{rgb}{0.204, 0.220, 0.216}
-\definecolor{green}{rgb}{0.431, 0.231, 0.529}
-\definecolor{dkorange}{rgb}{0.000, 0.490, 0.302}
-\definecolor{cyan}{rgb}{0.980, 0.565, 0.176}
-\definecolor{magenta}{rgb}{0.000, 0.490, 0.502}
-\definecolor{yellow}{rgb}{0.761, 0.047, 0.667}
-\definecolor{peagreen}{rgb}{0.969, 0.894, 0.235}
-\definecolor{darkblue}{rgb}{0.000, 0.388, 0.118}
-\definecolor{darkorange}{rgb}{0.267, 0.310, 0.584}
+\definecolor{black}{rgb}{0.204, 0.220, 0.216}
+\definecolor{purple}{rgb}{0.431, 0.231, 0.529}
+\definecolor{green}{rgb}{0.000, 0.490, 0.302}
+\definecolor{dkorange}{rgb}{0.980, 0.565, 0.176}
+\definecolor{cyan}{rgb}{0.000, 0.490, 0.502}
+\definecolor{magenta}{rgb}{0.761, 0.047, 0.667}
+\definecolor{yellow}{rgb}{0.969, 0.894, 0.235}
+\definecolor{peagreen}{rgb}{0.000, 0.388, 0.118}
+\definecolor{darkblue}{rgb}{0.267, 0.310, 0.584}
+\definecolor{darkorange}{rgb}{0.945, 0.384, 0.196}
 
 \newcommand{\blue}[1]{\color{blue} #1\normalcolor}
 \newcommand{\red}[1]{\color{red} #1\normalcolor}
