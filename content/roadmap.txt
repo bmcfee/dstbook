@@ -5,7 +5,7 @@ S22 revisions
 x fix fig 10.10 caption
 x fix RIR legend
 
-- fix animation figure sizes
+x fix animation figure sizes
 
 
 -- tex things:
@@ -16,44 +16,54 @@ x fix RIR legend
     ```{eval-rst}
     .. index:: ! index-phrase (eg Fast Fourier Transform)
     ```
-- fix colors in latex build
+x fix colors in latex build
 - fix neutral color in mpl style
-- pull out audio embeds
-/home/bmcfee/git/dstbook/content/ch02-sampling/Sampling.ipynb:140002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
-/home/bmcfee/git/dstbook/content/ch02-sampling/Aliasing.ipynb:130002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
-/home/bmcfee/git/dstbook/content/ch02-sampling/Aliasing.ipynb:130002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
-/home/bmcfee/git/dstbook/content/ch02-sampling/Quantization.ipynb:220002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
-/home/bmcfee/git/dstbook/content/ch02-sampling/Quantization.ipynb:220002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
-/home/bmcfee/git/dstbook/content/ch02-sampling/Quantization.ipynb:220002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
-/home/bmcfee/git/dstbook/content/ch02-sampling/Quantization.ipynb:220002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
-/home/bmcfee/git/dstbook/content/ch02-sampling/Quantization.ipynb:220002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
-/home/bmcfee/git/dstbook/content/ch02-sampling/Quantization.ipynb:220002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
-/home/bmcfee/git/dstbook/content/ch03-convolution/Building.ipynb:130002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
-/home/bmcfee/git/dstbook/content/ch03-convolution/Building.ipynb:130002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
-/home/bmcfee/git/dstbook/content/ch03-convolution/Building.ipynb:180002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
-/home/bmcfee/git/dstbook/content/ch03-convolution/Building.ipynb:180002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
-/home/bmcfee/git/dstbook/content/ch03-convolution/IR.ipynb:120002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
-/home/bmcfee/git/dstbook/content/ch03-convolution/IR.ipynb:120002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
-/home/bmcfee/git/dstbook/content/ch03-convolution/IR.ipynb:120002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
-/home/bmcfee/git/dstbook/content/ch05-fourier/Examples.ipynb:110002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
-/home/bmcfee/git/dstbook/content/ch06-dft-properties/Leakage.ipynb:80002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
-/home/bmcfee/git/dstbook/content/ch06-dft-properties/Leakage.ipynb:190002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+
+x pull out audio embeds
+x /home/bmcfee/git/dstbook/content/ch02-sampling/Sampling.ipynb:140002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+x /home/bmcfee/git/dstbook/content/ch02-sampling/Aliasing.ipynb:130002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+x /home/bmcfee/git/dstbook/content/ch02-sampling/Aliasing.ipynb:130002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+x /home/bmcfee/git/dstbook/content/ch02-sampling/Quantization.ipynb:220002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+x /home/bmcfee/git/dstbook/content/ch02-sampling/Quantization.ipynb:220002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+x /home/bmcfee/git/dstbook/content/ch02-sampling/Quantization.ipynb:220002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+x /home/bmcfee/git/dstbook/content/ch02-sampling/Quantization.ipynb:220002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+x /home/bmcfee/git/dstbook/content/ch02-sampling/Quantization.ipynb:220002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+x /home/bmcfee/git/dstbook/content/ch02-sampling/Quantization.ipynb:220002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+
+x /home/bmcfee/git/dstbook/content/ch03-convolution/Building.ipynb:130002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+x /home/bmcfee/git/dstbook/content/ch03-convolution/Building.ipynb:130002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+x /home/bmcfee/git/dstbook/content/ch03-convolution/Building.ipynb:180002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+x /home/bmcfee/git/dstbook/content/ch03-convolution/Building.ipynb:180002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+
+x /home/bmcfee/git/dstbook/content/ch03-convolution/IR.ipynb:120002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+x /home/bmcfee/git/dstbook/content/ch03-convolution/IR.ipynb:120002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+x /home/bmcfee/git/dstbook/content/ch03-convolution/IR.ipynb:120002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+
+x /home/bmcfee/git/dstbook/content/ch05-fourier/Examples.ipynb:110002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+
+x /home/bmcfee/git/dstbook/content/ch06-dft-properties/Leakage.ipynb:80002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+x /home/bmcfee/git/dstbook/content/ch06-dft-properties/Leakage.ipynb:190002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+
 /home/bmcfee/git/dstbook/content/ch09-stft/STFT.ipynb:80002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
-/home/bmcfee/git/dstbook/content/ch10-convtheorem/Filtering.ipynb:210002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
-/home/bmcfee/git/dstbook/content/ch10-convtheorem/Filtering.ipynb:210002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
-/home/bmcfee/git/dstbook/content/ch10-convtheorem/Filtering.ipynb:210002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
-/home/bmcfee/git/dstbook/content/ch10-convtheorem/FilterDesign.ipynb:130002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
-/home/bmcfee/git/dstbook/content/ch10-convtheorem/FilterDesign.ipynb:130002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
-/home/bmcfee/git/dstbook/content/ch10-convtheorem/FilterDesign.ipynb:130002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
-/home/bmcfee/git/dstbook/content/ch10-convtheorem/FilterDesign.ipynb:130002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
-/home/bmcfee/git/dstbook/content/ch10-convtheorem/FilterDesign.ipynb:180002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
-/home/bmcfee/git/dstbook/content/ch10-convtheorem/FilterDesign.ipynb:180002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
-/home/bmcfee/git/dstbook/content/ch10-convtheorem/FilterDesign.ipynb:180002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
-/home/bmcfee/git/dstbook/content/ch10-convtheorem/FilterDesign.ipynb:180002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
-/home/bmcfee/git/dstbook/content/ch10-convtheorem/Phase.ipynb:80002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
-/home/bmcfee/git/dstbook/content/ch10-convtheorem/Phase.ipynb:80002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
-/home/bmcfee/git/dstbook/content/ch10-convtheorem/Phase.ipynb:120002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
-/home/bmcfee/git/dstbook/content/ch11-iir/Feedback.ipynb:30002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+
+x /home/bmcfee/git/dstbook/content/ch10-convtheorem/Filtering.ipynb:210002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+x /home/bmcfee/git/dstbook/content/ch10-convtheorem/Filtering.ipynb:210002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+x /home/bmcfee/git/dstbook/content/ch10-convtheorem/Filtering.ipynb:210002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+
+x /home/bmcfee/git/dstbook/content/ch10-convtheorem/FilterDesign.ipynb:130002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+x /home/bmcfee/git/dstbook/content/ch10-convtheorem/FilterDesign.ipynb:130002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+x /home/bmcfee/git/dstbook/content/ch10-convtheorem/FilterDesign.ipynb:130002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+x /home/bmcfee/git/dstbook/content/ch10-convtheorem/FilterDesign.ipynb:130002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+x /home/bmcfee/git/dstbook/content/ch10-convtheorem/FilterDesign.ipynb:180002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+x /home/bmcfee/git/dstbook/content/ch10-convtheorem/FilterDesign.ipynb:180002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+x /home/bmcfee/git/dstbook/content/ch10-convtheorem/FilterDesign.ipynb:180002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+x /home/bmcfee/git/dstbook/content/ch10-convtheorem/FilterDesign.ipynb:180002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+
+x /home/bmcfee/git/dstbook/content/ch10-convtheorem/Phase.ipynb:80002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+x /home/bmcfee/git/dstbook/content/ch10-convtheorem/Phase.ipynb:80002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+x /home/bmcfee/git/dstbook/content/ch10-convtheorem/Phase.ipynb:120002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+
+x /home/bmcfee/git/dstbook/content/ch11-iir/Feedback.ipynb:30002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
 
 x pull out animations
     -->
