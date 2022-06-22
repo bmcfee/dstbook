@@ -25,19 +25,19 @@ x fix RIR legend
         x fig 1.9 (wave parameters)                 --> static frame is fine
         x fig 2.3 (aliasing)                        --> overlap several
         x fig 2.7 (quantization)                    --> multiple frames
-        - fig 3.3 (convolution calculation)         --> ???
-        - fig 3.6 (room IR)                         --> overlap several
-        - fig 4.1 (real number line)                --> multiple frames
-        - fig 4.6 (euler's formula convergence)     --> multiple frames
-        - fig 4.8 (complex multiplication)          --> single frame
-        - fig 4.9 (complex inversion)               --> overlap several?  or single frame
-        - fig 4.10 (complex exponentiation)         --> final frame
-        - fig 5.1 (similarity)                      --> final frame
-        - fig 5.12 (similarity and phase)           --> single frame
-        - fig 5.13 (dft real/imaginary phase)       --> single frame?  maybe multiple
-        - fig 5.18 (geometric series)               --> final frame
-        - fig 6.3 (shifting theorem)                --> ???
-        - fig 7.3 (partial synthesis)               --> multiple frames
+        x fig 3.3 (convolution calculation)         --> redo
+        x fig 3.6 (room IR)                         --> overlap several
+        x fig 4.1 (real number line)                --> multiple frames
+        x fig 4.6 (euler's formula convergence)     --> multiple frames
+        x fig 4.8 (complex multiplication)          --> single frame
+        x fig 4.9 (complex inversion)               --> overlap several?  or single frame
+        x fig 4.10 (complex exponentiation)         --> final frame
+        x fig 5.1 (similarity)                      --> final frame
+        x fig 5.11 (similarity and phase)           --> single frame
+        x fig 5.12 (dft real/imaginary phase)       --> single frame?  maybe multiple
+        x fig 5.18 (geometric series)               --> final frame
+        x fig 6.3 (shifting theorem)                --> cut
+        x fig 7.3 (partial synthesis)               --> multiple frames
         x fig 9.1 (framing)                         --> single frame
         x fig 9.2 (stft frames)                     --> multiple frames
         x fig 9.4 (frame length)                    --> multiple frames
