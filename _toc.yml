@@ -1,5 +1,5 @@
 format: jb-book
-root: content/intro-flat
+root: content/intro
 parts:
 - caption: Time-domain signals
   numbered: true
