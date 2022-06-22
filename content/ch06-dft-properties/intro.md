@@ -4,7 +4,9 @@
 :align: center
 :alt: the real and imaginary parts of a discrete Fourier spectrum
 ```
-
+```{eval-rst}
+.. index:: ! DFT ; properties
+```
 In this chapter, we'll go more in depth with the DFT to understand its fundamental properties.
 Specifically, we'll cover the following four topics:
 

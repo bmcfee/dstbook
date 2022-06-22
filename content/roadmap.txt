@@ -10,12 +10,27 @@ x fix animation figure sizes
 
 -- tex things:
 
-- index terms
+x index terms
     insert at each point:
     
     ```{eval-rst}
     .. index:: ! index-phrase (eg Fast Fourier Transform)
     ```
+    
+    x ch1
+    x ch2
+    x ch3
+    x ch4
+    x ch5
+    x ch6
+    x ch7
+    x ch8
+    x ch9
+    x ch10
+    x ch11
+    x ch12
+    x appendix
+    
 x fix colors in latex build
 - fix neutral color in mpl style
 
@@ -44,7 +59,7 @@ x /home/bmcfee/git/dstbook/content/ch05-fourier/Examples.ipynb:110002: WARNING: 
 x /home/bmcfee/git/dstbook/content/ch06-dft-properties/Leakage.ipynb:80002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
 x /home/bmcfee/git/dstbook/content/ch06-dft-properties/Leakage.ipynb:190002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
 
-/home/bmcfee/git/dstbook/content/ch09-stft/STFT.ipynb:80002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
+x /home/bmcfee/git/dstbook/content/ch09-stft/STFT.ipynb:80002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
 
 x /home/bmcfee/git/dstbook/content/ch10-convtheorem/Filtering.ipynb:210002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
 x /home/bmcfee/git/dstbook/content/ch10-convtheorem/Filtering.ipynb:210002: WARNING: No mime type available in priority list for builder 'latex' ('text/html') [mystnb.mime_priority]
