@@ -56,7 +56,8 @@ Depending on your background, you may find yourself wanting more foundational ma
 
 ## Acknowledgments
 
-I would like to thank several people for providing feedback on early versions of this text: Meinard Müller, Frank Zalkow, and Ernesto Valenzuela.
+I would like to thank several people for providing feedback on early versions of this text: Meinard Müller, Frank Zalkow, Ernesto Valenzuela, Haokun Tian,
+Katherine Kinnaird, Tanya Clement, and Nancy Rico Mineros.
 
 This project would not have been possible without the tireless efforts of the open source software developers, especially contributors to the following projects:
 - [NumPy](https://numpy.org/)
