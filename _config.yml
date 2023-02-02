@@ -19,7 +19,7 @@
 title: Digital Signals Theory
 author: Brian McFee
 email: brian.mcfee@nyu.edu
-copyright:  "2020-2022"
+copyright:  "2020-2023"
 logo: "content/images/logo/dstlogo.png"
 exclude_patterns: [content/unused/*, content/setup.ipynb, content/chapter-covers.ipynb]
 only_build_toc_files        : true
@@ -114,6 +114,7 @@ sphinx:
            "darkorange": ["\\class{darkorange}{#1}", 1]
 
     latex_elements:
+      geometry: "\\usepackage[papersize={7in, 10in}]{geometry}"
       extrapackages: "\\usepackage{cancel,color}\n\\usepackage{epigrafica}\n"
       preamble: \input{colormap.tex.txt}
       tableofcontents: ""
