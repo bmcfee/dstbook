@@ -120,8 +120,8 @@ sphinx:
       tableofcontents: ""
     latex_additional_files: ["colormap.tex.txt", "Alon.cls", "epigrafica.sty"]
     latex_docclass:
-        howto: "alon"
-        manual: "alon"
+        howto: "Alon"
+        manual: "Alon"
         latex_toplevel_sectioning: 'part'
 
 latex:
