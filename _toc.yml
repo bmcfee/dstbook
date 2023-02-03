@@ -1,108 +1,108 @@
 format: jb-book
 root: content/intro
 parts:
-- caption: Time-domain signals
-  numbered: true
-  chapters:
-  - file: content/ch01-signals/Intro
-    sections:
-    - file: content/ch01-signals/Preliminaries
-    - file: content/ch01-signals/Waves
-    - file: content/ch01-signals/Units
-    - file: content/ch01-signals/Acoustics
-    - file: content/ch01-signals/Exercises
-  - file: content/ch02-sampling/intro
-    sections:
-    - file: content/ch02-sampling/Sampling
-    - file: content/ch02-sampling/Aliasing
-    - file: content/ch02-sampling/Nyquist
-    - file: content/ch02-sampling/Quantization
-    - file: content/ch02-sampling/Exercises
-  - file: content/ch03-convolution/intro
-    sections:
-    - file: content/ch03-convolution/Building
-    - file: content/ch03-convolution/Convolution
-    - file: content/ch03-convolution/IR
-    - file: content/ch03-convolution/Modes
-    - file: content/ch03-convolution/Properties
-    - file: content/ch03-convolution/LSI
-    - file: content/ch03-convolution/Exercises
-- caption: The frequency domain
-  numbered: true
-  chapters:
-  - file: content/ch04-complex/Intro
-    sections:
-    - file: content/ch04-complex/Definition
-    - file: content/ch04-complex/Basic-Operations
-    - file: content/ch04-complex/Exponentials
-    - file: content/ch04-complex/Multiplication-and-division
-    - file: content/ch04-complex/Powers-and-waves
-    - file: content/ch04-complex/Exercises
-  - file: content/ch05-fourier/intro
-    sections:
-    - file: content/ch05-fourier/Similarity
-    - file: content/ch05-fourier/Cosine
-    - file: content/ch05-fourier/AnalysisFrequencies
-    - file: content/ch05-fourier/Phase
-    - file: content/ch05-fourier/DFT
-    - file: content/ch05-fourier/Examples
-    - file: content/ch05-fourier/SummingSinusoids
-    - file: content/ch05-fourier/Exercises
-  - file: content/ch06-dft-properties/intro
-    sections:
-    - file: content/ch06-dft-properties/Linearity
-    - file: content/ch06-dft-properties/Shifting
-    - file: content/ch06-dft-properties/Conjugate-Symmetry
-    - file: content/ch06-dft-properties/Leakage
-    - file: content/ch06-dft-properties/Exercises
-  - file: content/ch07-inverse-dft/intro
-    sections:
-    - file: content/ch07-inverse-dft/Sinusoid
-    - file: content/ch07-inverse-dft/InverseDFT
-    - file: content/ch07-inverse-dft/Synthesis
-    - file: content/ch07-inverse-dft/Exercises
-  - file: content/ch08-fft/intro
-    sections:
-    - file: content/ch08-fft/DFT-Analysis
-    - file: content/ch08-fft/FFT
-    - file: content/ch08-fft/Exercises
-  - file: content/ch09-stft/intro
-    sections:
-    - file: content/ch09-stft/Framing
-    - file: content/ch09-stft/STFT
-    - file: content/ch09-stft/Exercises
-- caption: Filtering
-  numbered: true
-  chapters:
-  - file: content/ch10-convtheorem/intro
-    sections:
-    - file: content/ch10-convtheorem/ConvolutionTheorem
-    - file: content/ch10-convtheorem/Filtering
-    - file: content/ch10-convtheorem/FilterDesign
-    - file: content/ch10-convtheorem/Phase
-    - file: content/ch10-convtheorem/Exercises
-  - file: content/ch11-iir/intro
-    sections:
-    - file: content/ch11-iir/Feedback
-    - file: content/ch11-iir/UsingIIR
-    - file: content/ch11-iir/IIRFilters
-    - file: content/ch11-iir/Exercises
-  - file: content/ch12-ztransform/intro
-    sections:
-    - file: content/ch12-ztransform/ZT
-    - file: content/ch12-ztransform/zT-Properties
-    - file: content/ch12-ztransform/Transfer
-    - file: content/ch12-ztransform/PoleZero
-    - file: content/ch12-ztransform/Exercises
-- caption: Appendix
-  numbered: false
-  chapters:
-  - file: content/appendixA/Fundamentals
-    sections:
-    - file: content/appendixA/Sets
-    - file: content/appendixA/Sequences
-    - file: content/appendixA/ModularArithmetic
-    - file: content/appendixA/Exponents
-- chapters:
-  - file: content/references
+  - caption: Time-domain signals
+    numbered: True
+    chapters:
+    - file: content/ch01-signals/Intro
+      sections:
+      - file: content/ch01-signals/Preliminaries
+      - file: content/ch01-signals/Waves
+      - file: content/ch01-signals/Units
+      - file: content/ch01-signals/Acoustics
+      - file: content/ch01-signals/Exercises
+    - file: content/ch02-sampling/intro
+      sections:
+      - file: content/ch02-sampling/Sampling
+      - file: content/ch02-sampling/Aliasing
+      - file: content/ch02-sampling/Nyquist
+      - file: content/ch02-sampling/Quantization
+      - file: content/ch02-sampling/Exercises
+    - file: content/ch03-convolution/intro
+      sections:
+      - file: content/ch03-convolution/Building
+      - file: content/ch03-convolution/Convolution
+      - file: content/ch03-convolution/IR
+      - file: content/ch03-convolution/Modes
+      - file: content/ch03-convolution/Properties
+      - file: content/ch03-convolution/LSI
+      - file: content/ch03-convolution/Exercises
+  - caption: The frequency domain
+    numbered: True
+    chapters:
+    - file: content/ch04-complex/Intro
+      sections:
+      - file: content/ch04-complex/Definition
+      - file: content/ch04-complex/Basic-Operations
+      - file: content/ch04-complex/Exponentials
+      - file: content/ch04-complex/Multiplication-and-division
+      - file: content/ch04-complex/Powers-and-waves
+      - file: content/ch04-complex/Exercises
+    - file: content/ch05-fourier/intro
+      sections:
+      - file: content/ch05-fourier/Similarity
+      - file: content/ch05-fourier/Cosine
+      - file: content/ch05-fourier/AnalysisFrequencies
+      - file: content/ch05-fourier/Phase
+      - file: content/ch05-fourier/DFT
+      - file: content/ch05-fourier/Examples
+      - file: content/ch05-fourier/SummingSinusoids
+      - file: content/ch05-fourier/Exercises
+    - file: content/ch06-dft-properties/intro
+      sections:
+      - file: content/ch06-dft-properties/Linearity
+      - file: content/ch06-dft-properties/Shifting
+      - file: content/ch06-dft-properties/Conjugate-Symmetry
+      - file: content/ch06-dft-properties/Leakage
+      - file: content/ch06-dft-properties/Exercises
+    - file: content/ch07-inverse-dft/intro
+      sections:
+      - file: content/ch07-inverse-dft/Sinusoid
+      - file: content/ch07-inverse-dft/InverseDFT
+      - file: content/ch07-inverse-dft/Synthesis
+      - file: content/ch07-inverse-dft/Exercises
+    - file: content/ch08-fft/intro
+      sections:
+      - file: content/ch08-fft/DFT-Analysis
+      - file: content/ch08-fft/FFT
+      - file: content/ch08-fft/Exercises
+    - file: content/ch09-stft/intro
+      sections:
+      - file: content/ch09-stft/Framing
+      - file: content/ch09-stft/STFT
+      - file: content/ch09-stft/Exercises
+  - caption: Filtering
+    numbered: True
+    chapters:
+    - file: content/ch10-convtheorem/intro
+      sections:
+      - file: content/ch10-convtheorem/ConvolutionTheorem
+      - file: content/ch10-convtheorem/Filtering
+      - file: content/ch10-convtheorem/FilterDesign
+      - file: content/ch10-convtheorem/Phase
+      - file: content/ch10-convtheorem/Exercises
+    - file: content/ch11-iir/intro
+      sections:
+      - file: content/ch11-iir/Feedback
+      - file: content/ch11-iir/UsingIIR
+      - file: content/ch11-iir/IIRFilters
+      - file: content/ch11-iir/Exercises
+    - file: content/ch12-ztransform/intro
+      sections:
+      - file: content/ch12-ztransform/ZT
+      - file: content/ch12-ztransform/zT-Properties
+      - file: content/ch12-ztransform/Transfer
+      - file: content/ch12-ztransform/PoleZero
+      - file: content/ch12-ztransform/Exercises
+  - caption: Appendix
+    numbered: False
+    chapters:
+    - file: content/appendixA/Fundamentals
+      sections:
+      - file: content/appendixA/Sets
+      - file: content/appendixA/Sequences
+      - file: content/appendixA/ModularArithmetic
+      - file: content/appendixA/Exponents
+  - chapters:
+    - file: content/references
 
