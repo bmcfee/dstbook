@@ -123,6 +123,7 @@ sphinx:
         #      fncychap: "\\usepackage{fncychap}\n"
         # fontpkg: "\\usepackage{epigrafica}\n"
       fontenc: "\\usepackage[LGR,OT1]{fontenc}\n"
+      sphinxsetup: "VerbatimColor={gray}{0.95}"
     latex_additional_files: ["colormap.tex.txt", "Alon.cls", "epigrafica.sty"]
     latex_domain_indices: False
     latex_docclass:
