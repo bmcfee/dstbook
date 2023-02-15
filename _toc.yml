@@ -103,6 +103,5 @@ parts:
       - file: content/appendixA/Sequences
       - file: content/appendixA/ModularArithmetic
       - file: content/appendixA/Exponents
-  - chapters:
-    - file: content/references
+      - file: content/references
 

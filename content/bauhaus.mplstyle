@@ -42,7 +42,7 @@ legend.fontsize: 14
 legend.handlelength: 1
 # legend.labelcolor: markerfacecolor
 
-figure.figsize: 8, 8
+figure.figsize: 6, 6
 figure.dpi: 100
 figure.constrained_layout.use: True
 

@@ -114,15 +114,20 @@ sphinx:
            "darkorange": ["\\class{darkorange}{#1}", 1]
 
     latex_elements:
-      geometry: "\\usepackage[papersize={7in, 10in}]{geometry}"
-      extrapackages: "\\usepackage{cancel,color}\n\\usepackage{epigrafica}\n"
-      preamble: \input{colormap.tex.txt}
+      geometry: "\\usepackage{geometry}"
+      extrapackages: "\\usepackage{cancel,color}\n\\usepackage{emptypage}\n\\usepackage{epigrafica}\n"
+      preamble: "\\input{colormap.tex.txt}\n"
       tableofcontents: ""
+      extraclassoptions: "alon2,singlecolor"
+      papersize: "letterpaper"
+        #      fncychap: "\\usepackage{fncychap}\n"
+        # fontpkg: "\\usepackage{epigrafica}\n"
+      fontenc: "\\usepackage[LGR,OT1]{fontenc}\n"
     latex_additional_files: ["colormap.tex.txt", "Alon.cls", "epigrafica.sty"]
+    latex_domain_indices: False
     latex_docclass:
         howto: "Alon"
         manual: "Alon"
-        latex_toplevel_sectioning: 'part'
 
 latex:
   use_jupyterbook_latex: false
