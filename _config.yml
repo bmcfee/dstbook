@@ -114,16 +114,15 @@ sphinx:
            "darkorange": ["\\class{darkorange}{#1}", 1]
 
     latex_elements:
-      geometry: "\\usepackage{geometry}"
-      extrapackages: "\\usepackage{cancel,color}\n\\usepackage{emptypage}\n\\usepackage{epigrafica}\n"
+      geometry: "\\usepackage[twoside,papersize={8.5in,11in}]{geometry}"
+      extrapackages: "\\usepackage{cancel,color}\n"
       preamble: "\\input{colormap.tex.txt}\n"
+      # fvset: "\\fvset{samepage=True}"
       tableofcontents: ""
       extraclassoptions: "alon2,singlecolor"
-      papersize: "letterpaper"
-        #      fncychap: "\\usepackage{fncychap}\n"
-        # fontpkg: "\\usepackage{epigrafica}\n"
+      fontpkg: "\\usepackage{epigrafica}\n"
       fontenc: "\\usepackage[LGR,OT1]{fontenc}\n"
-      sphinxsetup: "VerbatimColor={gray}{0.95}"
+      sphinxsetup: "VerbatimColor={gray}{0.95}, hmargin={1.6in,1.4in}, vmargin={0.925in, 1.85in}, marginpar=0.5in"
     latex_additional_files: ["colormap.tex.txt", "Alon.cls", "epigrafica.sty"]
     latex_domain_indices: False
     latex_docclass:
