@@ -117,7 +117,7 @@ sphinx:
       geometry: "\\usepackage[twoside,papersize={8.5in,11in}]{geometry}"
       extrapackages: "\\usepackage{cancel,color}\n"
       preamble: "\\input{colormap.tex.txt}\n"
-      # fvset: "\\fvset{samepage=True}"
+      fvset: "\\fvset{samepage=True}"
       tableofcontents: ""
       extraclassoptions: "alon2,singlecolor"
       fontpkg: "\\usepackage{epigrafica}\n"
