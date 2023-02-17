@@ -122,7 +122,7 @@ sphinx:
       extraclassoptions: "alon2,singlecolor"
       fontpkg: "\\usepackage{epigrafica}\n"
       fontenc: "\\usepackage[LGR,OT1]{fontenc}\n"
-      sphinxsetup: "VerbatimColor={gray}{0.95}, hmargin={1.6in,1.4in}, vmargin={0.925in, 1.85in}, marginpar=0.5in"
+      sphinxsetup: "VerbatimColor={gray}{0.95}, hmargin={1.6in,1.4in}, vmargin={0.925in, 1.85in}, marginpar=0.5in,warningBgColor={rgb}{0.98,0.93,0.96}"
     latex_additional_files: ["colormap.tex.txt", "Alon.cls", "epigrafica.sty"]
     latex_domain_indices: False
     latex_docclass:
