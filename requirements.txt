@@ -1,0 +1,6 @@
+ipython>=8.4.0
+ipykernel>=6.13.1
+jupyter-book>=0.13.0
+sphinx_exercise>=0.4.1
+sphinx_proof==0.1.3
+sphinxcontrib-svg2pdfconverter>=1.1.1
