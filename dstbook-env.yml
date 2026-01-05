@@ -26,9 +26,9 @@ dependencies:
   - brotli-bin=1.0.9=h166bdaf_7
   - brotlipy=0.7.0=py39hb9d737c_1004
   - bzip2=1.0.8=h7f98852_4
-  - ca-certificates=2022.5.18.1=ha878542_0
+  - ca-certificates=2026.1.4=hbd8a1cb_0
   - cairo=1.16.0=h6cf1ce9_1008
-  - certifi=2022.5.18.1=py39hf3d152e_0
+  - certifi=2025.8.3=pyhd8ed1ab_0
   - cffi=1.15.0=py39h4bc2ebd_0
   - chardet=4.0.0=py39hf3d152e_3
   - charset-normalizer=2.0.12=pyhd8ed1ab_0
@@ -43,6 +43,7 @@ dependencies:
   - debugpy=1.6.0=py39h5a03fae_0
   - decorator=5.1.1=pyhd8ed1ab_0
   - defusedxml=0.7.1=pyhd8ed1ab_0
+  - docutils=0.17.1=py39hf3d152e_7
   - entrypoints=0.4=pyhd8ed1ab_0
   - executing=0.8.3=pyhd8ed1ab_0
   - expat=2.4.8=h27087fc_0
@@ -162,7 +163,7 @@ dependencies:
   - nbconvert-core=6.5.0=pyhd8ed1ab_0
   - nbconvert-pandoc=6.5.0=pyhd8ed1ab_0
   - nbdime=3.1.1=pyhd8ed1ab_0
-  - nbformat=5.4.0=pyhd8ed1ab_0
+  - nbformat=5.10.3=pyhd8ed1ab_0
   - nbstripout=0.5.0=pyhd8ed1ab_0
   - ncurses=6.2=h58526e2_4
   - nest-asyncio=1.5.5=pyhd8ed1ab_0
@@ -172,7 +173,7 @@ dependencies:
   - numpy=1.22.4=py39hc58783e_0
   - olefile=0.46=pyh9f0ad1d_1
   - openjpeg=2.4.0=hb52868f_1
-  - openssl=1.1.1o=h166bdaf_0
+  - openssl=1.1.1w=hd590300_0
   - packaging=21.3=pyhd8ed1ab_0
   - pandas=1.4.2=py39h1832856_2
   - pandoc=2.18=ha770c72_0
@@ -188,6 +189,7 @@ dependencies:
   - pip=22.1.2=pyhd8ed1ab_0
   - pixman=0.40.0=h36c2ea0_0
   - pkg-config=0.29.2=h36c2ea0_1008
+  - pkgutil-resolve-name=1.3.10=pyhd8ed1ab_2
   - platformdirs=2.5.1=pyhd8ed1ab_0
   - prometheus_client=0.14.1=pyhd8ed1ab_0
   - prompt-toolkit=3.0.29=pyha770c72_0
@@ -199,6 +201,7 @@ dependencies:
   - pybtex=0.24.0=pyhd8ed1ab_2
   - pybtex-docutils=1.0.2=py39hf3d152e_1
   - pycparser=2.21=pyhd8ed1ab_0
+  - pydata-sphinx-theme=0.8.1=pyhd8ed1ab_0
   - pyee=8.1.0=pyh9f0ad1d_0
   - pygments=2.12.0=pyhd8ed1ab_0
   - pyopenssl=22.0.0=pyhd8ed1ab_0
@@ -223,6 +226,7 @@ dependencies:
   - readline=8.1=h46c0cb4_0
   - requests=2.28.0=pyhd8ed1ab_0
   - requests-unixsocket=0.2.0=py_0
+  - rich=13.3.1=pyhd8ed1ab_0
   - scipy=1.8.1=py39he49c0e8_0
   - send2trash=1.8.0=pyhd8ed1ab_0
   - setuptools=62.3.4=py39hf3d152e_0
@@ -236,7 +240,7 @@ dependencies:
   - sphinx-book-theme=0.3.2=pyhd8ed1ab_0
   - sphinx-comments=0.0.3=pyh9f0ad1d_0
   - sphinx-copybutton=0.5.0=pyhd8ed1ab_0
-  - sphinx-jupyterbook-latex=0.4.6=pyhd8ed1ab_0
+  - sphinx-jupyterbook-latex=0.5.2=pyhd8ed1ab_0
   - sphinx-multitoc-numbering=0.1.3=pyhd8ed1ab_0
   - sphinx-panels=0.6.0=pyhd8ed1ab_0
   - sphinx-thebe=0.1.2=pyhd8ed1ab_0
@@ -293,19 +297,17 @@ dependencies:
   - zlib=1.2.12=h166bdaf_0
   - zstd=1.5.2=h8a70e8d_1
   - pip:
-    - docutils==0.17.1
-    - jsonschema==3.2.0
-    - jupyter-book==0.13.0
-    - jupyter-cache==0.4.3
-    - linkify-it-py==1.0.3
-    - markdown-it-py==1.1.0
-    - mdit-py-plugins==0.2.8
-    - myst-nb==0.13.2
-    - myst-parser==0.15.2
-    - pydata-sphinx-theme==0.8.1
-    - sphinx-design==0.1.0
-    - sphinx-exercise==0.4.0
-    - sphinx-external-toc==0.2.4
-    - sphinx-proof==0.1.3
-    - sphinxcontrib-svg2pdfconverter==1.1.1
-prefix: /home/bmcfee/miniconda/envs/dstbook
+      - jsonschema==3.2.0
+      - jupyter-book==0.13.0
+      - jupyter-cache==0.4.3
+      - linkify-it-py==1.0.3
+      - markdown-it-py==1.1.0
+      - mdit-py-plugins==0.2.8
+      - myst-nb==0.13.2
+      - myst-parser==0.15.2
+      - sphinx-design==0.1.0
+      - sphinx-exercise==0.4.0
+      - sphinx-external-toc==0.2.4
+      - sphinx-proof==0.1.3
+      - sphinxcontrib-svg2pdfconverter==1.1.1
+prefix: /home/bmcfee/miniconda3/envs/dstbook
