@@ -14,3 +14,4 @@ report it [on GitHub](https://github.com/bmcfee/dstbook/issues).
 - 2026-01-05: Corrected a typo in section 7.2: "cancels totals".
 - 2026-01-05: Corrected a typo in section 12.3: "has again be expressed".
 - 2026-01-05: Added explicit gain value parameter to factorized form of transfer functions in section 12.4.4, and accompanying margin note.
+- 2026-01-05: Adjusted formatting of the proof of lemma 5.1 (Section 5.7).
