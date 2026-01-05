@@ -105,4 +105,4 @@ parts:
     - file: content/appendixA/Exponents
 - chapters:
   - file: content/references
-
+  - file: content/errata
